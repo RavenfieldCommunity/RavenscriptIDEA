@@ -146,34 +146,34 @@
 ---Callback: callback()
 ---@field onSpawnProjectiles ScriptEvent
 Weapon = {
-    ---Add a subweapon to this parent weapon, returning the subweapon index.
-    ---@param subWeapon Weapon
-    ---@return int
-    AddSubWeapon = function ( subWeapon) end,
-    ---Switch to the next Sub Weapon in the Weapon’s alternativeWeapons list.
-    ---@param subWeaponIndex int
-    EquipSubWeapon = function ( subWeaponIndex) end,
-    ---Matches a weapon role based on the weapon’s current stats.
-    ---@return WeaponRole
-    GenerateWeaponRoleFromStats = function () end,
-    InstantlyReload = function () end,
-    ---Lock the weapon so it cannot be fired.
-    LockWeapon = function () end,
-    NextSightMode = function () end,
-    ---Switch to the next Sub Weapon in the Weapon’s alternativeWeapons list.
-    NextSubWeapon = function () end,
-    PreviousSightMode = function () end,
-    Reload = function () end,
-    ---@overload fun(subWeapon: Weapon)
-    ---Removes a subweapon from this parent weapon.
-    ---@param subWeaponIndex int
-    RemoveSubWeapon = function ( subWeaponIndex) end,
-    ---@param prefab GameObject
-    SetProjectilePrefab = function ( prefab) end,
-    ---Shoots this weapon.If force is true, ignores the CanFire() check. Returns true if shot was fired.
-    ---@param force bool
-    ---@return bool
-    Shoot = function ( force) end,
-    ---Unlock the weapon so it can be fired.
-    UnlockWeapon = function () end,
+	---Add a subweapon to this parent weapon, returning the subweapon index.
+	---@param subWeapon Weapon
+	---@return int
+	AddSubWeapon = function(subWeapon) end,
+	---Switch to the next Sub Weapon in the Weapon’s alternativeWeapons list.
+	---@param subWeaponIndex int
+	EquipSubWeapon = function(subWeaponIndex) end,
+	---Matches a weapon role based on the weapon’s current stats.
+	---@return WeaponRole
+	GenerateWeaponRoleFromStats = function() end,
+	InstantlyReload = function() end,
+	---Lock the weapon so it cannot be fired.
+	LockWeapon = function() end,
+	NextSightMode = function() end,
+	---Switch to the next Sub Weapon in the Weapon’s alternativeWeapons list.
+	NextSubWeapon = function() end,
+	PreviousSightMode = function() end,
+	Reload = function() end,
+	---@overload fun(subWeapon: Weapon)
+	---Removes a subweapon from this parent weapon.
+	---@param subWeaponIndex int
+	RemoveSubWeapon = function(subWeaponIndex) end,
+	---@param prefab GameObject
+	SetProjectilePrefab = function(prefab) end,
+	---Shoots this weapon.If force is true, ignores the CanFire() check. Returns true if shot was fired.
+	---@param force bool
+	---@return bool
+	Shoot = function(force) end,
+	---Unlock the weapon so it can be fired.
+	UnlockWeapon = function() end,
 }

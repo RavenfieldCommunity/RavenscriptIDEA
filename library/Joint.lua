@@ -25,6 +25,4 @@
 ---@field tag string
 ---**Const**
 ---@field transform Transform
-Joint = {
-    
-}
+Joint = {}

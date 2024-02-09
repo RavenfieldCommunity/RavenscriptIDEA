@@ -43,6 +43,4 @@
 ---@field subtractiveShadowColor Color
 ---**static**
 ---@field sun Light
-RenderSettings = {
-    
-}
+RenderSettings = {}

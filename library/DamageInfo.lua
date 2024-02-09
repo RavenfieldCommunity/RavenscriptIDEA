@@ -22,12 +22,9 @@
 ---@field sourceWeaponEntry WeaponEntry
 ---@field type DamageSourceType
 DamageInfo = {
-    ---**static**
-    ---Evaluates the explosion damage at the specified point. Can optionally ignore level geometry which would otherwise block damage through walls, etc.
-    ---@param point Vector3
-    ---@param ignoreLevelGeometry bool
-    EvaluateLastExplosionDamage = function ( point,  ignoreLevelGeometry) end 
+	---**static**
+	---Evaluates the explosion damage at the specified point. Can optionally ignore level geometry which would otherwise block damage through walls, etc.
+	---@param point Vector3
+	---@param ignoreLevelGeometry bool
+	EvaluateLastExplosionDamage = function(point, ignoreLevelGeometry) end,
 }
-
-
-

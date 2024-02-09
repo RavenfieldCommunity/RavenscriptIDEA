@@ -101,6 +101,4 @@
 ---Invoked when a vehicle is spawned. Note that if the vehicle isn’t spawned by a VehicleSpawner, the spawner value is nil.
 ---Callback: callback(Vehicle vehicle, VehicleSpawner spawner)
 ---@field onVehicleSpawn ScriptEvent
-GameEvents = {
-    
-}
+GameEvents = {}

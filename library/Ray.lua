@@ -6,10 +6,10 @@
 ---@operator call:Ray
 ---@class Ray
 Ray = {
-    ---@param distance float
-    ---@return Vector3
-    GetPoint = function (distance) end,
-    ---@param format? string
-    ---@return string
-    ToString = function (format) end
+	---@param distance float
+	---@return Vector3
+	GetPoint = function(distance) end,
+	---@param format? string
+	---@return string
+	ToString = function(format) end,
 }

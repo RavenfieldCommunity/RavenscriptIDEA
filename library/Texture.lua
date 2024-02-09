@@ -48,9 +48,9 @@
 ---**static Const**
 ---@field totalTextureMemory UInt64
 Texture = {
-    IncrementUpdateCount = function () end,
-    ---@param forcedMin int
-    ---@param globalMax int
-    SetGlobalAnisotropicFilteringLimits = function (forcedMin,globalMax) end,
-    SetStreamingTextureMaterialDebugProperties = function () end
+	IncrementUpdateCount = function() end,
+	---@param forcedMin int
+	---@param globalMax int
+	SetGlobalAnisotropicFilteringLimits = function(forcedMin, globalMax) end,
+	SetStreamingTextureMaterialDebugProperties = function() end,
 }

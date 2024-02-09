@@ -16,16 +16,16 @@
 ---@field onValueChanged ScriptEvent
 ---**static Const**
 ---@field allSelectableCount int
-Toggle= {
-    GraphicUpdateComplete = function () end,
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    ---@return bool
-    IsInteractable = function () end,
-    LayoutComplete = function () end,
-    Select = function () end,
-    ---@param value bool
-    SetIsOnWithoutNotify = function (value) end,
+Toggle = {
+	GraphicUpdateComplete = function() end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	---@return bool
+	IsInteractable = function() end,
+	LayoutComplete = function() end,
+	Select = function() end,
+	---@param value bool
+	SetIsOnWithoutNotify = function(value) end,
 }

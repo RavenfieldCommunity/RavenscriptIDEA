@@ -15,6 +15,4 @@
 ---@field speed float
 ---@field stability bool
 ---@field turnSpeed float
-Boat = {
-    
-}
+Boat = {}

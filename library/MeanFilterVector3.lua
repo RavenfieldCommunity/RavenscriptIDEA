@@ -5,11 +5,11 @@
 ---@overload fun(taps: int):MeanFilterVector3
 ---@operator call:MeanFilterVector3
 MeanFilterVector3 = {
-    ---@return float
-    ---@param input Vector3
-    Tick = function ( input) end,
-    ---@return string
-    ToString = function () end,
-    ---@return float
-    Value = function () end,
+	---@return float
+	---@param input Vector3
+	Tick = function(input) end,
+	---@return string
+	ToString = function() end,
+	---@return float
+	Value = function() end,
 }

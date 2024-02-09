@@ -72,76 +72,76 @@
 ---@field velocity Vector3
 ---@field worldToCameraMatrix Matrix4x4
 Camera = {
-    ---@param clipPlane Vector4
-    ---@return Matrix4x4
-    CalculateObliqueMatrix = function (clipPlane) end,
-    ---@param other Camera
-    CopyFrom = function (other) end,
-    ---@return float
-    GetGateFittedFieldOfView = function () end,
-    ---@return Vector2
-    GetGateFittedLensShift = function () end,
-    RemoveAllCommandBuffers = function () end,
-    Render = function () end,
-    RenderDontRestore = function () end,
-    Reset = function () end,
-    ResetAspect = function () end,
-    ResetCullingMatrix = function () end,
-    ResetProjectionMatrix = function () end,
-    ResetReplacementShader = function () end,
-    ResetStereoProjectionMatrices = function () end,
-    ResetStereoViewMatrices = function () end,
-    ResetTransparencySortSettings = function () end,
-    ResetWorldToCameraMatrix = function () end,
-    ---@param pos Vector3
-    ---@return Ray
-    ScreenPointToRay = function (pos) end,
-    ---@param position Vector3
-    ---@return Vector3
-    ScreenToViewportPoint = function (position) end,
-    ---@param position Vector3
-    ---@return Vector3
-    ScreenToWorldPoint = function (position) end,
-    ---@param position Vector3
-    ---@return Ray
-    ViewportPointToRay = function (position) end,
-    ---@param position Vector3
-    ---@return Vector3
-    ViewportToScreenPoint = function (position) end,
-    ---@param position Vector3
-    ---@return Vector3
-    ViewportToWorldPoint = function (position) end,
-    ---@param position Vector3
-    ---@return Vector3
-    WorldToScreenPoint = function (position) end,
-    ---@param position Vector3
-    ---@return Vector3
-    WorldToViewportPoint = function (position) end,
-    ---**static Const**
-    ---@param fieldOfView float
-    ---@param sensorSize float
-    ---@return float
-    FieldOfViewToFocalLength = function (fieldOfView, sensorSize) end,
-    ---**static Const**
-    ---@param fieldOfView float
-    ---@param sensorSize float
-    ---@return float
-    FocalLengthToFieldOfView = function (fieldOfView, sensorSize) end,
-    ---**static Const**
-    ---@param cameras Camera[]
-    ---@return int 
-    GetAllCameras = function (cameras) end,
-    ---**static Const**
-    ---@param horizontalFieldOfView float
-    ---@param aspectRatio float
-    ---@return float
-    HorizontalToVerticalFieldOfView = function (horizontalFieldOfView, aspectRatio) end,
-    ---**static Const**
-    ---@param cur Camera
-    SetupCurrent = function (cur) end,
-    ---**static Const**
-    ---@param fieldOfView float
-    ---@param sensorSize float
-    ---@return float
-    VerticalToHorizontalFieldOfView = function (fieldOfView, sensorSize) end,
+	---@param clipPlane Vector4
+	---@return Matrix4x4
+	CalculateObliqueMatrix = function(clipPlane) end,
+	---@param other Camera
+	CopyFrom = function(other) end,
+	---@return float
+	GetGateFittedFieldOfView = function() end,
+	---@return Vector2
+	GetGateFittedLensShift = function() end,
+	RemoveAllCommandBuffers = function() end,
+	Render = function() end,
+	RenderDontRestore = function() end,
+	Reset = function() end,
+	ResetAspect = function() end,
+	ResetCullingMatrix = function() end,
+	ResetProjectionMatrix = function() end,
+	ResetReplacementShader = function() end,
+	ResetStereoProjectionMatrices = function() end,
+	ResetStereoViewMatrices = function() end,
+	ResetTransparencySortSettings = function() end,
+	ResetWorldToCameraMatrix = function() end,
+	---@param pos Vector3
+	---@return Ray
+	ScreenPointToRay = function(pos) end,
+	---@param position Vector3
+	---@return Vector3
+	ScreenToViewportPoint = function(position) end,
+	---@param position Vector3
+	---@return Vector3
+	ScreenToWorldPoint = function(position) end,
+	---@param position Vector3
+	---@return Ray
+	ViewportPointToRay = function(position) end,
+	---@param position Vector3
+	---@return Vector3
+	ViewportToScreenPoint = function(position) end,
+	---@param position Vector3
+	---@return Vector3
+	ViewportToWorldPoint = function(position) end,
+	---@param position Vector3
+	---@return Vector3
+	WorldToScreenPoint = function(position) end,
+	---@param position Vector3
+	---@return Vector3
+	WorldToViewportPoint = function(position) end,
+	---**static Const**
+	---@param fieldOfView float
+	---@param sensorSize float
+	---@return float
+	FieldOfViewToFocalLength = function(fieldOfView, sensorSize) end,
+	---**static Const**
+	---@param fieldOfView float
+	---@param sensorSize float
+	---@return float
+	FocalLengthToFieldOfView = function(fieldOfView, sensorSize) end,
+	---**static Const**
+	---@param cameras Camera[]
+	---@return int
+	GetAllCameras = function(cameras) end,
+	---**static Const**
+	---@param horizontalFieldOfView float
+	---@param aspectRatio float
+	---@return float
+	HorizontalToVerticalFieldOfView = function(horizontalFieldOfView, aspectRatio) end,
+	---**static Const**
+	---@param cur Camera
+	SetupCurrent = function(cur) end,
+	---**static Const**
+	---@param fieldOfView float
+	---@param sensorSize float
+	---@return float
+	VerticalToHorizontalFieldOfView = function(fieldOfView, sensorSize) end,
 }

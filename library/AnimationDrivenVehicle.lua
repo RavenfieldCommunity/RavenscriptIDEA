@@ -4,11 +4,11 @@
 ---@class AnimationDrivenVehicle : Vehicle
 ---@overload fun():AnimationDrivenVehicle
 ---@operator call:AnimationDrivenVehicle
----@field isAirborne bool 
+---@field isAirborne bool
 ---@field planeInput bool
 AnimationDrivenVehicle = {
-    ---@return Vector3
-    AngularVelocity = function () end,
-    ---@return Vector3
-    Velocity = function () end,
+	---@return Vector3
+	AngularVelocity = function() end,
+	---@return Vector3
+	Velocity = function() end,
 }

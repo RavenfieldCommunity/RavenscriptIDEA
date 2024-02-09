@@ -18,8 +18,8 @@
 ---**Const**
 ---@field transform Transform
 CanvasGroup = {
-    ---@param sp Vector3
-    ---@param eventCamera Camera
-    ---@return bool
-    IsRaycastLocationValid = function (sp, eventCamera) end,
+	---@param sp Vector3
+	---@param eventCamera Camera
+	---@return bool
+	IsRaycastLocationValid = function(sp, eventCamera) end,
 }

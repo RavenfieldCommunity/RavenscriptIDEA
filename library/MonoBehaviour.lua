@@ -6,6 +6,4 @@
 ---@field gameObject GameObject
 ---**Const**
 ---@field transform Transform
-MonoBehaviour = {
-    
-}
+MonoBehaviour = {}

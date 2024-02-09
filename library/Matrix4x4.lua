@@ -36,98 +36,97 @@
 ---**static Const**
 ---@field zero Matrix4x4
 Matrix4x4 = {
-    ---@param point Vector3
-    ---@return Vector3
-    MultiplyPoint = function ( point) end,
-    ---@param point Vector3
-    ---@return Vector3
-    MultiplyPoint3x4 = function ( point) end,
-    ---@param vector Vector3
-    ---@return Vector3
-    MultiplyVector = function ( vector) end,
-    ---@param index int
-    ---@param column Vector4
-    SetColumn = function ( index,  column) end,
-    ---@param index int
-    ---@param row Vector4
-    SetRow = function ( index,  row) end,
-    ---@param pos Vector3
-    ---@param q Quaternion
-    ---@param s Vector3
-    SetTRS = function ( pos,  q,  s) end,
-    ---@param format string
-    ---@return string
-    ToString = function ( format) end,
-    ---@param plane Plane
-    ---@return Plane
-    TransformPlane = function ( plane) end,
-    ---@return bool
-    ValidTRS = function () end,
-    ---**static**
-    ---@param m Matrix4x4
-    ---@return float
-    Determinant = function ( m) end,
-    ---**static**
-    ---@param left float
-    ---@param right float
-    ---@param bottom float
-    ---@param top float
-    ---@param zNear float
-    ---@param zFar float
-    ---@return Matrix4x4
-    Frustum = function ( left,  right,  bottom,  top,  zNear,  zFar) end,
-    ---**static**
-    ---@param m Matrix4x4
-    ---@return Matrix4x4
-    Inverse = function ( m) end,
-    ---**static**
-    ---@param input Matrix4x4
-    ---@param result Matrix4x4
-    ---@return bool
-    Inverse3DAffine = function ( input,  result) end,
-    ---**static**
-    ---@param from Vector3
-    ---@param to Vector3
-    ---@param up Vector3
-    ---@return Matrix4x4
-    LookAt = function ( from,  to,  up) end,
-    ---**static**
-    ---@param left float
-    ---@param right float
-    ---@param bottom float
-    ---@param top float
-    ---@param zNear float
-    ---@param zFar float
-    ---@return Matrix4x4
-    Ortho = function ( left,  right,  bottom,  top,  zNear,  zFar) end,
-    ---**static**
-    ---@param fov float
-    ---@param aspect float
-    ---@param zNear float
-    ---@param zFar float
-    ---@return Matrix4x4
-    Perspective = function ( fov,  aspect,  zNear,  zFar) end,
-    ---**static**
-    ---@param q Quaternion
-    ---@return Matrix4x4
-    Rotate = function ( q) end,
-    ---**static**
-    ---@param vector Vector3
-    ---@return Matrix4x4
-    Scale = function ( vector) end,
-    ---**static**
-    ---@param vector Vector3
-    ---@return Matrix4x4
-    Translate = function ( vector) end,
-    ---**static**
-    ---@param m Matrix4x4
-    ---@return Matrix4x4
-    Transpose = function ( m) end,
-    ---**static**
-    ---@param pos Vector3
-    ---@param q Quaternion
-    ---@param s Vector3
-    ---@return Matrix4x4
-    TRS = function ( pos,  q,  s) end,
-
+	---@param point Vector3
+	---@return Vector3
+	MultiplyPoint = function(point) end,
+	---@param point Vector3
+	---@return Vector3
+	MultiplyPoint3x4 = function(point) end,
+	---@param vector Vector3
+	---@return Vector3
+	MultiplyVector = function(vector) end,
+	---@param index int
+	---@param column Vector4
+	SetColumn = function(index, column) end,
+	---@param index int
+	---@param row Vector4
+	SetRow = function(index, row) end,
+	---@param pos Vector3
+	---@param q Quaternion
+	---@param s Vector3
+	SetTRS = function(pos, q, s) end,
+	---@param format string
+	---@return string
+	ToString = function(format) end,
+	---@param plane Plane
+	---@return Plane
+	TransformPlane = function(plane) end,
+	---@return bool
+	ValidTRS = function() end,
+	---**static**
+	---@param m Matrix4x4
+	---@return float
+	Determinant = function(m) end,
+	---**static**
+	---@param left float
+	---@param right float
+	---@param bottom float
+	---@param top float
+	---@param zNear float
+	---@param zFar float
+	---@return Matrix4x4
+	Frustum = function(left, right, bottom, top, zNear, zFar) end,
+	---**static**
+	---@param m Matrix4x4
+	---@return Matrix4x4
+	Inverse = function(m) end,
+	---**static**
+	---@param input Matrix4x4
+	---@param result Matrix4x4
+	---@return bool
+	Inverse3DAffine = function(input, result) end,
+	---**static**
+	---@param from Vector3
+	---@param to Vector3
+	---@param up Vector3
+	---@return Matrix4x4
+	LookAt = function(from, to, up) end,
+	---**static**
+	---@param left float
+	---@param right float
+	---@param bottom float
+	---@param top float
+	---@param zNear float
+	---@param zFar float
+	---@return Matrix4x4
+	Ortho = function(left, right, bottom, top, zNear, zFar) end,
+	---**static**
+	---@param fov float
+	---@param aspect float
+	---@param zNear float
+	---@param zFar float
+	---@return Matrix4x4
+	Perspective = function(fov, aspect, zNear, zFar) end,
+	---**static**
+	---@param q Quaternion
+	---@return Matrix4x4
+	Rotate = function(q) end,
+	---**static**
+	---@param vector Vector3
+	---@return Matrix4x4
+	Scale = function(vector) end,
+	---**static**
+	---@param vector Vector3
+	---@return Matrix4x4
+	Translate = function(vector) end,
+	---**static**
+	---@param m Matrix4x4
+	---@return Matrix4x4
+	Transpose = function(m) end,
+	---**static**
+	---@param pos Vector3
+	---@param q Quaternion
+	---@param s Vector3
+	---@return Matrix4x4
+	TRS = function(pos, q, s) end,
 }

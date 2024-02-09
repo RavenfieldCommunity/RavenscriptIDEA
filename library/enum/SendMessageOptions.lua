@@ -3,6 +3,6 @@
 ---@see http://ravenfieldgame.com/ravenscript/api/SendMessageOptionshtml
 ---@class SendMessageOptions
 SendMessageOptions = {
-    RequireReceiver=0,
-    DontRequireReceiver=1
+	RequireReceiver = 0,
+	DontRequireReceiver = 1,
 }

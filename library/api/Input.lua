@@ -46,73 +46,73 @@
 ---**static Const**
 ---@field touchSupported bool
 Input = {
-    ---**static**
-    EnableNumberRowInputs = function () end,
-    ---**static**
-    ---@return float
-    GetAxis = function ( axisName) end,
-    ---**static**
-    ---@param axisName string
-    ---@return float
-    GetAxisRaw = function ( axisName) end,
-    ---**static**
-    ---@param buttonName string
-    ---@return bool
-    GetButton = function ( buttonName) end,
-    ---**static**
-    ---@param buttonName string
-    ---@return bool
-    GetButtonDown = function ( buttonName) end,
-    ---**static**
-    ---@param buttonName string
-    ---@return bool
-    GetButtonUp = function ( buttonName) end,
-    ---**static**
-    ---@return string[]
-    GetJoystickNames = function () end,
-    ---**static**
-    ---@overload fun(keyCode:KeyCode)
-    ---@param name string:bool
-    ---@return bool
-    GetKey = function ( name) end,
-    ---**static**
-    ---@param keyBind KeyBinds
-    ---@return float
-    GetKeyBindAxis = function ( keyBind) end,
-    ---**static**
-    ---@param keyBind KeyBinds
-    ---@return bool
-    GetKeyBindButton = function ( keyBind) end,
-    ---**static**
-    ---@param keyBind KeyBinds
-    ---@return bool
-    GetKeyBindButtonDown = function ( keyBind) end,
-    ---**static**
-    ---@param keyBind KeyBinds
-    ---@return bool
-    GetKeyBindButtonUp = function ( keyBind) end,
-    ---**static**
-    ---@overload fun(keyCode:KeyCode):bool
-    ---@param name string
-    ---@return bool
-    GetKeyDown = function ( name) end,
-    ---**static**
-    ---@overload fun(keyCode:KeyCode):bool
-    ---@param name string
-    ---@return bool
-    GetKeyUp = function ( name) end,
-    ---**static**
-    ---@param button int
-    ---@return bool
-    GetMouseButton = function ( button) end,
-    ---**static**
-    ---@param button int
-    ---@return bool
-    GetMouseButtonDown = function ( button) end,
-    ---**static**
-    ---@param button int
-    ---@return bool
-    GetMouseButtonUp = function ( button) end,
-    ---**static**
-    ResetInputAxes = function () end,
+	---**static**
+	EnableNumberRowInputs = function() end,
+	---**static**
+	---@return float
+	GetAxis = function(axisName) end,
+	---**static**
+	---@param axisName string
+	---@return float
+	GetAxisRaw = function(axisName) end,
+	---**static**
+	---@param buttonName string
+	---@return bool
+	GetButton = function(buttonName) end,
+	---**static**
+	---@param buttonName string
+	---@return bool
+	GetButtonDown = function(buttonName) end,
+	---**static**
+	---@param buttonName string
+	---@return bool
+	GetButtonUp = function(buttonName) end,
+	---**static**
+	---@return string[]
+	GetJoystickNames = function() end,
+	---**static**
+	---@overload fun(keyCode:KeyCode)
+	---@param name string:bool
+	---@return bool
+	GetKey = function(name) end,
+	---**static**
+	---@param keyBind KeyBinds
+	---@return float
+	GetKeyBindAxis = function(keyBind) end,
+	---**static**
+	---@param keyBind KeyBinds
+	---@return bool
+	GetKeyBindButton = function(keyBind) end,
+	---**static**
+	---@param keyBind KeyBinds
+	---@return bool
+	GetKeyBindButtonDown = function(keyBind) end,
+	---**static**
+	---@param keyBind KeyBinds
+	---@return bool
+	GetKeyBindButtonUp = function(keyBind) end,
+	---**static**
+	---@overload fun(keyCode:KeyCode):bool
+	---@param name string
+	---@return bool
+	GetKeyDown = function(name) end,
+	---**static**
+	---@overload fun(keyCode:KeyCode):bool
+	---@param name string
+	---@return bool
+	GetKeyUp = function(name) end,
+	---**static**
+	---@param button int
+	---@return bool
+	GetMouseButton = function(button) end,
+	---**static**
+	---@param button int
+	---@return bool
+	GetMouseButtonDown = function(button) end,
+	---**static**
+	---@param button int
+	---@return bool
+	GetMouseButtonUp = function(button) end,
+	---**static**
+	ResetInputAxes = function() end,
 }

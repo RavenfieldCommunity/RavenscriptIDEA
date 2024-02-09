@@ -34,6 +34,4 @@
 ---@field turretSpawners TurretSpawner[]
 ---**Const**
 ---@field vehicleSpawners VehicleSpawner[]
-SpawnPoint = {
-    
-}
+SpawnPoint = {}

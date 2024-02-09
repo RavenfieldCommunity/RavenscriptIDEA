@@ -8,6 +8,4 @@
 ---@field squad Squad
 ---@field weapon Weapon
 ---@field vehicle Vehicle
-SignalContext = {
-    
-}
+SignalContext = {}

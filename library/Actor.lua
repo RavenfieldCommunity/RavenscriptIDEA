@@ -132,130 +132,130 @@
 ---Callback: void callback()
 ---@field onTakeDamage ScriptEvent
 Actor = {
-    ---Undo Deactivate()
-    Activate = function () end,
-    ---@param mesh Mesh
-    ---@param materials Material[]
-    ---Adds an additional accessory renderer on top of the actors regular skin.
-    AddAccessory = function (mesh,materials) end,
-    ---Resets the skin of the actor to the game-managed team skin.
-    ApplyTeamSkin = function () end,
-    ---Returns true if Actor takes damage when hit by the given weapon.
-    ---@param weapon Weapon Can this weapon damage the Actor?
-    ---@return bool
-    CanBeDamagedBy = function (weapon) end,
-    ---@param seat Seat
-    ---@return bool
-    CanEnterSeat = function (seat) end,
-    ---Cuts the parachute. This function ignores the canDeployParachute value.
-    CutParachute = function () end,
-    ---@overload fun(source : Actor,info: DamageInfo)
-    ---@overload fun(source : Actor,balance:float,isSplash:bool,isPiercing:bool)
-    ---@overload fun(source : Actor,balance:float,isSplash:bool,isPiercing:bool,point:Vector3,direction:Vector3,force:Vector3)
-    ---@param health float MUST
-    ---@return bool
-    Damege = function (source,health,balance,isSplash,isPiercing,point,direction,force) end,
-    ---Used to temporarily disable an actor from the game. Hides, Freezes and Disables Hitbox Colliders of this Actor. Also stops the Actor from respawning.
-    Deactivate = function () end,
-    ---Deploys the parachute. This function ignores the canDeployParachute value.
-    DeployParachute = function () end,
-    ---Enters the target seat if it’s not already occupied. If the target seat is already occupied, the actor will not enter the seat, and this function returns false. If the actor could successfully enter the seat, the function returns true.
-    ---@param seat Seat
-    ---@return bool
-    EnterSeat = function (seat) end,
-    ---Force enters the target seat, kicking out any previous occupant. If another seat is available in the vehicle, the previous occupant will swap to that seat. If not, they will exit the vehicle.
-    ---@param seat Seat
-    EnterSeatForced = function (seat) end,
-    ---Makes the actor enter the vehicle. If the actor is a squad leader, this automatically makes the squad claim the vehicle.
-    ---@param vehicle Vehicle
-    ---@return bool
-    EnterVehicle = function (vehicle) end,
-    ---Equip a new weapon in the specified slot (0-4).
-    ---@param entry WeaponEntry
-    ---@param slotNumber int
-    ---@param forceSwitchTo int
-    ---@return Weapon
-    EquipNewWeaponEntry = function (entry,slotNumber,forceSwitchTo) end,
-    ---@param target Actor
-    ---@param weapon Weapon
-    ---@return Difficulty
-    EvaluateShotDifficulty = function (target, weapon) end,
-    ---Makes the actor get off the ladder. If the actor was close to the top or bottom, the actor will be positioned according on the ladder’s top or bottom exit points.
-    ExitLadder = function () end,
-    ExitVehicle = function () end,
-    ---Ragdolls the actor.
-    FallOver = function () end,
-    ---Get the animated bone transform of the specified HumanoidBodyBone.
-    ---@param bone HumanBodyBones
-    ---@return Transform
-    GetHumanoidTransformAnimated = function (bone) end,
-    ---Get the ragdoll bone transform of the specified HumanoidBodyBone.
-    ---@param bone HumanBodyBones
-    ---@return Transform
-    GetHumanoidTransformRagdoll = function (bone) end,
-    ---Makes the actor start climbing the ladder. The actor is positioned at the closest point on the ladder.
-    ---@param ladder Ladder
-    GetOnLadder = function (ladder) end,
-    ---Gets the current actor skin. Returns nil if actor is using the default team skin.
-    ---@return ActorSkin
-    GetOverrideActorSkin = function () end,
-    ---@return SkinnedMeshRenderer
-    GetSkinnedMeshRendererAnimated = function () end,
-    ---@return SkinnedMeshRenderer
-    GetSkinnedMeshRendererRagdoll = function () end,
-    ---Reloads all carried weapons instantly.
-    InstantlyReloadCarriedWeapons = function () end,
-    ---@return bool
-    IsWeaponUnholstered = function () end,
-    ---@param killer Actor
-    Kill = function (killer) end,
-    ---Kills the actor without reporting the kill. An actor killed this way will not contribute to the scoreboard or killfeed, and will not spawn a ragdoll.
-    KillSilently = function () end,
-    ---Ragdolls the actor and applies a force.
-    ---@param force Vector3
-    KnockOver = function (force) end,
-    ---Removes all accessory renderers.
-    RemoveAccessories = function () end,
-    ---Remove the weapon in the specified slot (0-4).
-    ---@param slotNumber int
-    RemoveWeapon = function (slotNumber) end,
-    ---@return bool
-    ResupplyAmmo = function () end,
-    ---@return bool
-    ResupplyHealth = function () end,
-    ---Set the bone local scale of the specified HumanoidBodyBone.
-    ---@param bone HumanBodyBones
-    ---@param scale Vector3 | float
-    SetHumanoidBoneScale = function (bone,scale) end,
-    ---Set the ragdoll joint drive values.
-    ---@param spring float The spring force value (default 1000). A higher value yields a stronger force.
-    ---@param siffness float The drag force value (default 3). A higher value yields a slower and more stable movement.
-    SetRagdollJointDrive = function(spring, siffness) end,
-    ---Reset the ragdoll joint drive to their default values.
-    SetRagdollJointDriveDefault = function () end,
-    ---Sets the skin of this actor to an unmanaged skin. Unmanaged skins are not managed by the game, meaning that glow will not be automatically applied when the player enters night vision mode.
-    ---@param actorSkin ActorSkin
-    ---@param mesh? Mesh The mesh that should be applied to the actor. If nil, the mesh will not be replaced.
-    ---@param materials? Material[] The material array that should be applied to the renderer.
-    ---@param teamMaterialIndex? int The material index that should be replaced by the team material. Set this value to -1 if no team material should be applied. Please note that this uses C# array indexing, meaning the first material entry is at index 0, the second and index 1, etc
-    SetSkin = function (actorSkin,mesh, materials, teamMaterialIndex) end,
-    ---Sets the world scale of the WeaponParent transform, which controls scale of all held weapons. If all parent bones and game objects are uniformly scaled on all axis, this will yield the correct world scale. If not, the world scale might be off.
-    ---@param scale float
-    SetWeaponParentApproximateWorldScale = function (scale) end,
-    ---Set the local scale of the WeaponParent transform, which controls scale of all held weapons.
-    ---@param scale float
-    SetWeaponParentScale = function (scale) end,
-    ---@param position float
-    ---@param rotation? Quaternion
-    SpawnAt = function (position, rotation) end,
-    ---Swaps with the target seat. If the target seat is already occupied, the two occupants will be swapped. If the target seat is not in the same vehicle, the swap is canceled and this function returns false.
-    ---@param seat Seat
-    SwapWithSeat = function (seat) end,
-    ---Switches to the target seat. If the target seat is already occupied or is not in the same vehicle, the switch is canceled and this function returns false.
-    ---@param seat Seat
-    SwitchToSeat = function (seat) end,
-    ---Set the position and rotation of this actor. Only rotation on the Y axis is applied to the actor, any rotation on the X and Z axis is ignored.
-    ---@param position float
-    ---@param rotation Quaternion
-    TeleportTo = function (position, rotation) end,
+	---Undo Deactivate()
+	Activate = function() end,
+	---@param mesh Mesh
+	---@param materials Material[]
+	---Adds an additional accessory renderer on top of the actors regular skin.
+	AddAccessory = function(mesh, materials) end,
+	---Resets the skin of the actor to the game-managed team skin.
+	ApplyTeamSkin = function() end,
+	---Returns true if Actor takes damage when hit by the given weapon.
+	---@param weapon Weapon Can this weapon damage the Actor?
+	---@return bool
+	CanBeDamagedBy = function(weapon) end,
+	---@param seat Seat
+	---@return bool
+	CanEnterSeat = function(seat) end,
+	---Cuts the parachute. This function ignores the canDeployParachute value.
+	CutParachute = function() end,
+	---@overload fun(source : Actor,info: DamageInfo)
+	---@overload fun(source : Actor,balance:float,isSplash:bool,isPiercing:bool)
+	---@overload fun(source : Actor,balance:float,isSplash:bool,isPiercing:bool,point:Vector3,direction:Vector3,force:Vector3)
+	---@param health float MUST
+	---@return bool
+	Damege = function(source, health, balance, isSplash, isPiercing, point, direction, force) end,
+	---Used to temporarily disable an actor from the game. Hides, Freezes and Disables Hitbox Colliders of this Actor. Also stops the Actor from respawning.
+	Deactivate = function() end,
+	---Deploys the parachute. This function ignores the canDeployParachute value.
+	DeployParachute = function() end,
+	---Enters the target seat if it’s not already occupied. If the target seat is already occupied, the actor will not enter the seat, and this function returns false. If the actor could successfully enter the seat, the function returns true.
+	---@param seat Seat
+	---@return bool
+	EnterSeat = function(seat) end,
+	---Force enters the target seat, kicking out any previous occupant. If another seat is available in the vehicle, the previous occupant will swap to that seat. If not, they will exit the vehicle.
+	---@param seat Seat
+	EnterSeatForced = function(seat) end,
+	---Makes the actor enter the vehicle. If the actor is a squad leader, this automatically makes the squad claim the vehicle.
+	---@param vehicle Vehicle
+	---@return bool
+	EnterVehicle = function(vehicle) end,
+	---Equip a new weapon in the specified slot (0-4).
+	---@param entry WeaponEntry
+	---@param slotNumber int
+	---@param forceSwitchTo int
+	---@return Weapon
+	EquipNewWeaponEntry = function(entry, slotNumber, forceSwitchTo) end,
+	---@param target Actor
+	---@param weapon Weapon
+	---@return Difficulty
+	EvaluateShotDifficulty = function(target, weapon) end,
+	---Makes the actor get off the ladder. If the actor was close to the top or bottom, the actor will be positioned according on the ladder’s top or bottom exit points.
+	ExitLadder = function() end,
+	ExitVehicle = function() end,
+	---Ragdolls the actor.
+	FallOver = function() end,
+	---Get the animated bone transform of the specified HumanoidBodyBone.
+	---@param bone HumanBodyBones
+	---@return Transform
+	GetHumanoidTransformAnimated = function(bone) end,
+	---Get the ragdoll bone transform of the specified HumanoidBodyBone.
+	---@param bone HumanBodyBones
+	---@return Transform
+	GetHumanoidTransformRagdoll = function(bone) end,
+	---Makes the actor start climbing the ladder. The actor is positioned at the closest point on the ladder.
+	---@param ladder Ladder
+	GetOnLadder = function(ladder) end,
+	---Gets the current actor skin. Returns nil if actor is using the default team skin.
+	---@return ActorSkin
+	GetOverrideActorSkin = function() end,
+	---@return SkinnedMeshRenderer
+	GetSkinnedMeshRendererAnimated = function() end,
+	---@return SkinnedMeshRenderer
+	GetSkinnedMeshRendererRagdoll = function() end,
+	---Reloads all carried weapons instantly.
+	InstantlyReloadCarriedWeapons = function() end,
+	---@return bool
+	IsWeaponUnholstered = function() end,
+	---@param killer Actor
+	Kill = function(killer) end,
+	---Kills the actor without reporting the kill. An actor killed this way will not contribute to the scoreboard or killfeed, and will not spawn a ragdoll.
+	KillSilently = function() end,
+	---Ragdolls the actor and applies a force.
+	---@param force Vector3
+	KnockOver = function(force) end,
+	---Removes all accessory renderers.
+	RemoveAccessories = function() end,
+	---Remove the weapon in the specified slot (0-4).
+	---@param slotNumber int
+	RemoveWeapon = function(slotNumber) end,
+	---@return bool
+	ResupplyAmmo = function() end,
+	---@return bool
+	ResupplyHealth = function() end,
+	---Set the bone local scale of the specified HumanoidBodyBone.
+	---@param bone HumanBodyBones
+	---@param scale Vector3 | float
+	SetHumanoidBoneScale = function(bone, scale) end,
+	---Set the ragdoll joint drive values.
+	---@param spring float The spring force value (default 1000). A higher value yields a stronger force.
+	---@param siffness float The drag force value (default 3). A higher value yields a slower and more stable movement.
+	SetRagdollJointDrive = function(spring, siffness) end,
+	---Reset the ragdoll joint drive to their default values.
+	SetRagdollJointDriveDefault = function() end,
+	---Sets the skin of this actor to an unmanaged skin. Unmanaged skins are not managed by the game, meaning that glow will not be automatically applied when the player enters night vision mode.
+	---@param actorSkin ActorSkin
+	---@param mesh? Mesh The mesh that should be applied to the actor. If nil, the mesh will not be replaced.
+	---@param materials? Material[] The material array that should be applied to the renderer.
+	---@param teamMaterialIndex? int The material index that should be replaced by the team material. Set this value to -1 if no team material should be applied. Please note that this uses C# array indexing, meaning the first material entry is at index 0, the second and index 1, etc
+	SetSkin = function(actorSkin, mesh, materials, teamMaterialIndex) end,
+	---Sets the world scale of the WeaponParent transform, which controls scale of all held weapons. If all parent bones and game objects are uniformly scaled on all axis, this will yield the correct world scale. If not, the world scale might be off.
+	---@param scale float
+	SetWeaponParentApproximateWorldScale = function(scale) end,
+	---Set the local scale of the WeaponParent transform, which controls scale of all held weapons.
+	---@param scale float
+	SetWeaponParentScale = function(scale) end,
+	---@param position float
+	---@param rotation? Quaternion
+	SpawnAt = function(position, rotation) end,
+	---Swaps with the target seat. If the target seat is already occupied, the two occupants will be swapped. If the target seat is not in the same vehicle, the swap is canceled and this function returns false.
+	---@param seat Seat
+	SwapWithSeat = function(seat) end,
+	---Switches to the target seat. If the target seat is already occupied or is not in the same vehicle, the switch is canceled and this function returns false.
+	---@param seat Seat
+	SwitchToSeat = function(seat) end,
+	---Set the position and rotation of this actor. Only rotation on the Y axis is applied to the actor, any rotation on the X and Z axis is ignored.
+	---@param position float
+	---@param rotation Quaternion
+	TeleportTo = function(position, rotation) end,
 }

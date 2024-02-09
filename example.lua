@@ -7,4 +7,3 @@
 --    Overlay.ShowMessage("Hello,world!",0.5)
 --    self.script.t
 --end
-

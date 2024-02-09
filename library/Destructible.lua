@@ -10,6 +10,4 @@
 ---@field isDead bool
 ---**Const**
 ---@field transform Transform
-Destructible = {
-    
-}
+Destructible = {}

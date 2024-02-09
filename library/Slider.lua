@@ -23,15 +23,15 @@
 ---**static Const**
 ---@field allSelectableCount int
 Slider = {
-    GraphicUpdateComplete = function () end,
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    ---@return bool
-    IsInteractable = function () end,
-    LayoutComplete = function () end,
-    Select = function () end,
-    ---@param input float
-    SetValueWithoutNotify = function (input) end
+	GraphicUpdateComplete = function() end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	---@return bool
+	IsInteractable = function() end,
+	LayoutComplete = function() end,
+	Select = function() end,
+	---@param input float
+	SetValueWithoutNotify = function(input) end,
 }

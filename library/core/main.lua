@@ -13,7 +13,7 @@ function behaviour(id) end
 ---整数
 ---@alias int integer
 ---浮点数
----@alias float number 
+---@alias float number
 ---固定长度的整型(范围：18446744073709551615)
 ---@alias UInt64 number
 ---32位无符号整数(范围：4294967295)
@@ -29,7 +29,6 @@ function behaviour(id) end
 ---@alias Byte number
 ---有符号 64 位整数（范围: -2^63 ~ 2^63-1）
 ---@alias Int64 int
-
 
 ---@class Behaviours: ScriptedBehaviour
 ---The ScriptedBehaviour component in which the Ravenscript is executed.
@@ -56,25 +55,24 @@ function behaviour(id) end
 ---@field LateUpdate function
 ---@field FixedUpdate function
 ---@field OnAnimatorIK function
-Behaviours = {
-}
+Behaviours = {}
 
 ---@class Component: Base
 local Component = {
-    ---此游戏对象是否使用 tag 进行了标记？
-    ---@param tag string
-    ---@return boolean
-    CompareTag = function (tag) end,
-    ---@return int
-    GetHashCode = function () end,
+	---此游戏对象是否使用 tag 进行了标记？
+	---@param tag string
+	---@return boolean
+	CompareTag = function(tag) end,
+	---@return int
+	GetHashCode = function() end,
 }
 
 ---@class Base
 local Base = {
-    ---返回对象的名称。
-    ---@return string
-    ToString = function () end,
+	---返回对象的名称。
+	---@return string
+	ToString = function() end,
 }
 
 ---@type any
-ANY = {TO_DEF=true}
+ANY = { TO_DEF = true }

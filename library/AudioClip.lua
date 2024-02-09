@@ -4,6 +4,4 @@
 ---@class AudioClip
 ---**Const**
 ---@field lenght float
-AudioClip = {
-    
-}
+AudioClip = {}

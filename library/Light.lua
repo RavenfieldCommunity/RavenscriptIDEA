@@ -39,6 +39,6 @@
 ---@field useShadowMatrixOverride bool
 ---@field useViewFrustumForShadowCasterCull bool
 Light = {
-    RemoveAllCommandBuffers = function () end,
-    Reset = function () end
+	RemoveAllCommandBuffers = function() end,
+	Reset = function() end,
 }

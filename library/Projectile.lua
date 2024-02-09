@@ -46,7 +46,7 @@
 ---The current movement velocity of the projectile
 ---@field velocity Vector3
 Projectile = {
-    ---Stops and destroys the projectile. Exploding projectiles trigger an explosion if silent is false, otherwise they are immediately destroyed.
-    ---@param silent bool
-    Stop = function (silent) end,
+	---Stops and destroys the projectile. Exploding projectiles trigger an explosion if silent is false, otherwise they are immediately destroyed.
+	---@param silent bool
+	Stop = function(silent) end,
 }

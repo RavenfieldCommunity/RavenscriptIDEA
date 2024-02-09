@@ -38,8 +38,8 @@
 ---**Const**
 ---@field transform Transform
 Car = {
-    ---@param fromDirection Vector3
-    FlipUpright = function (fromDirection) end,
-    ---@return bool
-    IsChangingGears = function () end
+	---@param fromDirection Vector3
+	FlipUpright = function(fromDirection) end,
+	---@return bool
+	IsChangingGears = function() end,
 }

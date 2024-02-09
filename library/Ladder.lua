@@ -20,6 +20,4 @@
 ---@field topPosition Vector3
 ---**Const**
 ---@field transform Transform
-Ladder = {
-    
-}
+Ladder = {}

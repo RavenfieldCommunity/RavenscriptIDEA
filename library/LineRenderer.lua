@@ -55,24 +55,24 @@
 ---**Const**
 ---@field worldToLocalMatrix Matrix4x4
 LineRenderer = {
-    ---@param mesh Mesh
-    ---@param camera? Camera
-    ---@param useTransform bool
-    BakeMesh = function ( mesh,  camera,  useTransform) end,
-    ---@param m Material[]
-    GetMaterials = function ( m) end,
-    ---@param index int
-    ---@return Vector3
-    GetPosition = function ( index) end,
-    ---@param m Material[]
-    GetSharedMaterials = function ( m) end,
-    ---@return bool
-    HasPropertyBlock = function () end,
-    ---@param index int
-    ---@param position Vector3
-    SetPosition = function ( index,  position) end,
-    ---@param positions Vector3[]
-    SetPositions = function ( positions) end,
-    ---@param tolerance float
-    Simplify = function ( tolerance) end,
+	---@param mesh Mesh
+	---@param camera? Camera
+	---@param useTransform bool
+	BakeMesh = function(mesh, camera, useTransform) end,
+	---@param m Material[]
+	GetMaterials = function(m) end,
+	---@param index int
+	---@return Vector3
+	GetPosition = function(index) end,
+	---@param m Material[]
+	GetSharedMaterials = function(m) end,
+	---@return bool
+	HasPropertyBlock = function() end,
+	---@param index int
+	---@param position Vector3
+	SetPosition = function(index, position) end,
+	---@param positions Vector3[]
+	SetPositions = function(positions) end,
+	---@param tolerance float
+	Simplify = function(tolerance) end,
 }

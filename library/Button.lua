@@ -17,11 +17,11 @@
 ---**static Const**
 ---@field allSelectableCount int
 Button = {
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    ---@return bool
-    IsInteractable = function () end,
-    Select = function () end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	---@return bool
+	IsInteractable = function() end,
+	Select = function() end,
 }

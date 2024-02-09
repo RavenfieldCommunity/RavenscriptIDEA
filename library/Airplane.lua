@@ -15,7 +15,7 @@
 ---@field controlVsAngleOfAttack AnimationCurve
 ---@field flightAltitudeMultiplier float
 ---@field gearsRetracted bool
----@field isAirborne bool 
+---@field isAirborne bool
 ---@field landingGearActivationObjects GameObject[]
 ---@field liftGainTime float
 ---@field liftVsAngleOfAttack AnimationCurve
@@ -26,6 +26,6 @@
 ---@field thruster Transform
 ---@field yawSensitivity float
 Airplane = {
-    ---@param info DamageInfo
-    StartBurning = function (info) end,
+	---@param info DamageInfo
+	StartBurning = function(info) end,
 }

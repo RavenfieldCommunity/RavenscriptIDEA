@@ -22,19 +22,19 @@
 ---**Const**
 ---@field allSelectableCount int
 Dropdown = {
-    ---@param options string[]
-    AddOptions = function ( options) end,
-    ClearOptions = function () end,
-    Hide = function () end,
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    ---@return bool
-    IsInteractable = function () end,
-    RefreshShownValue = function () end,
-    Select = function () end,
-    ---@param input int
-    SetValueWithoutNotify = function ( input) end,
-    Show = function () end,
+	---@param options string[]
+	AddOptions = function(options) end,
+	ClearOptions = function() end,
+	Hide = function() end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	---@return bool
+	IsInteractable = function() end,
+	RefreshShownValue = function() end,
+	Select = function() end,
+	---@param input int
+	SetValueWithoutNotify = function(input) end,
+	Show = function() end,
 }

@@ -9,6 +9,4 @@
 ---@field gear3 WeaponEntry
 ---@field primary WeaponEntry
 ---@field secondary WeaponEntry
-LoadoutSet = {
-    
-}
+LoadoutSet = {}

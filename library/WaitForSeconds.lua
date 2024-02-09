@@ -5,6 +5,4 @@
 ---@overload fun(seconds:float):WaitForSeconds
 ---@operator call:WaitForSeconds
 ---@field seconds float
-WaitForSeconds = {
-    
-}
+WaitForSeconds = {}

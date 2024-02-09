@@ -48,19 +48,19 @@
 ---**Const**
 ---@field worldToLocalMatrix Matrix4x4
 SkinnedMeshRenderer = {
-    ---@param mesh Mesh
-    ---@param useScale? bool
-    BakeMesh = function (mesh,useScale) end,
-    ---@param index int
-    ---@return float
-    GetBlendShapeWeight = function (index) end,
-    ---@param m Material[]
-    GetMaterials = function (m) end,
-    ---@param m Material[]
-    GetSharedMaterials = function (m) end,
-    ---@return bool
-    HasPropertyBlock = function () end,
-    ---@param index int
-    ---@param value float
-    SetBlendShapeWeight = function (index,value) end
+	---@param mesh Mesh
+	---@param useScale? bool
+	BakeMesh = function(mesh, useScale) end,
+	---@param index int
+	---@return float
+	GetBlendShapeWeight = function(index) end,
+	---@param m Material[]
+	GetMaterials = function(m) end,
+	---@param m Material[]
+	GetSharedMaterials = function(m) end,
+	---@return bool
+	HasPropertyBlock = function() end,
+	---@param index int
+	---@param value float
+	SetBlendShapeWeight = function(index, value) end,
 }

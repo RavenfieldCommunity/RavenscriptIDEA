@@ -68,18 +68,18 @@
 ---**Const**
 ---@field transform Transform
 Vehicle = {
-    ---@param source Actor
-    ---@param amount float
-    Damage = function (source, amount) end,
-    ---Get the first available empty seat in the vehicle.
-    ---@param allowDriverSeat bool
-    ---@return Seat
-    GetEmptySeat = function (allowDriverSeat) end,
-    ---Returns all missile projectiles that are currently tracking this vehicle.
-    ---@return TargetSeekingMissileProjectile[]
-    GetTrackingMissiles = function () end,
-    ---Repairs the vehicle by the specified health amount. Returns true if the vehicle was healed (that is, if it was not already at max health.)
-    ---@param amount float
-    ---@return bool
-    Repair = function (amount) end,
+	---@param source Actor
+	---@param amount float
+	Damage = function(source, amount) end,
+	---Get the first available empty seat in the vehicle.
+	---@param allowDriverSeat bool
+	---@return Seat
+	GetEmptySeat = function(allowDriverSeat) end,
+	---Returns all missile projectiles that are currently tracking this vehicle.
+	---@return TargetSeekingMissileProjectile[]
+	GetTrackingMissiles = function() end,
+	---Repairs the vehicle by the specified health amount. Returns true if the vehicle was healed (that is, if it was not already at max health.)
+	---@param amount float
+	---@return bool
+	Repair = function(amount) end,
 }

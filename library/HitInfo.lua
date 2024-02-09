@@ -7,6 +7,4 @@
 ---@field actor Actor
 ---@field destructible Destructible
 ---@field vehicle Vehicle
-HitInfo = {
-
-}
+HitInfo = {}

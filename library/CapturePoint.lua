@@ -21,6 +21,4 @@
 ---**Const**
 ---The team that is closest to taking over the capture point. This is the same team as the current team color indicated on the flag renderer.
 ---@field pendingOwner Team
-CapturePoint = {
-    
-}
+CapturePoint = {}

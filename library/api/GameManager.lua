@@ -30,12 +30,12 @@
 ---The name of the current active scene
 ---@field sceneName string
 GameManager = {
-    ---Returns the team name with a rich text color tag. Example: <color=blue>EAGLE</color>
-    ---@param team Team
-    ---@return string
-    GetRichTextColorTeamName = function ( team) end,
-    ---Returns the team name.
-    ---@param team Team
-    ---@return string
-    GetTeamName = function ( team) end
+	---Returns the team name with a rich text color tag. Example: <color=blue>EAGLE</color>
+	---@param team Team
+	---@return string
+	GetRichTextColorTeamName = function(team) end,
+	---Returns the team name.
+	---@param team Team
+	---@return string
+	GetTeamName = function(team) end,
 }

@@ -8,7 +8,7 @@
 ---@field mesh Mesh
 ---@field teamMaterial int
 MeshSkin = {
-    ---@param renderer SkinnedMeshRenderer
-    ---@param team Team
-    Apply = function ( renderer,  team) end
+	---@param renderer SkinnedMeshRenderer
+	---@param team Team
+	Apply = function(renderer, team) end,
 }

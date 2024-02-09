@@ -21,9 +21,9 @@
 ---**Const**
 ---@field uiSprite Sprite
 WeaponEntry = {
-    ---@param position Vector3
-    ---@param rotation Quaternion
-    ---@return GameObject
-    ---Instantiates an imposter object of the weapon prefab. The imposter object contains the third person transform of the weapon prefab, and has its Weapon component culled. If the weapon doesn’t have a third person transform, this function will fail and return nil.
-    InstantiateImposter = function (position,rotation) end
+	---@param position Vector3
+	---@param rotation Quaternion
+	---@return GameObject
+	---Instantiates an imposter object of the weapon prefab. The imposter object contains the third person transform of the weapon prefab, and has its Weapon component culled. If the weapon doesn’t have a third person transform, this function will fail and return nil.
+	InstantiateImposter = function(position, rotation) end,
 }

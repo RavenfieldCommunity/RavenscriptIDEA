@@ -24,13 +24,13 @@
 ---**Const**
 ---@field width UInt32
 VideoClip = {
-    ---@param audioTrackIdx UInt16
-    ---@return UInt16
-    GetAudioChannelCount = function (audioTrackIdx) end,
-    ---@param audioTrackIdx UInt16
-    ---@return string
-    GetAudioLanguage = function (audioTrackIdx) end,
-    ---@param audioTrackIdx UInt16
-    ---@return UInt32
-    GetAudioSampleRate = function (audioTrackIdx) end
+	---@param audioTrackIdx UInt16
+	---@return UInt16
+	GetAudioChannelCount = function(audioTrackIdx) end,
+	---@param audioTrackIdx UInt16
+	---@return string
+	GetAudioLanguage = function(audioTrackIdx) end,
+	---@param audioTrackIdx UInt16
+	---@return UInt32
+	GetAudioSampleRate = function(audioTrackIdx) end,
 }

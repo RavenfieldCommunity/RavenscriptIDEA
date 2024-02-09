@@ -32,18 +32,18 @@
 ---**Const**
 ---@field vertices Vector2[]
 Sprite = {
-    ---@param shapeIdx int
-    ---@param physicsShape Vector2[]
-    ---@return int
-    GetPhysicsShape = function (shapeIdx,physicsShape) end,
-    ---@return int
-    GetPhysicsShapeCount = function () end,
-    ---@param shapeIdx int
-    ---@return int
-    GetPhysicsShapePointCount = function (shapeIdx) end,
-    ---@param vertices Vector2[]
-    ---@param triangles UInt16[]
-    OverrideGeometry = function (vertices,triangles) end,
-    ---@param physicsShapes Vector2[][]
-    OverridePhysicsShape = function (physicsShapes) end
+	---@param shapeIdx int
+	---@param physicsShape Vector2[]
+	---@return int
+	GetPhysicsShape = function(shapeIdx, physicsShape) end,
+	---@return int
+	GetPhysicsShapeCount = function() end,
+	---@param shapeIdx int
+	---@return int
+	GetPhysicsShapePointCount = function(shapeIdx) end,
+	---@param vertices Vector2[]
+	---@param triangles UInt16[]
+	OverrideGeometry = function(vertices, triangles) end,
+	---@param physicsShapes Vector2[][]
+	OverridePhysicsShape = function(physicsShapes) end,
 }

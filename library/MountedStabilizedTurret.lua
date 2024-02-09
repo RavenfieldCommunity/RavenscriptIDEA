@@ -18,10 +18,10 @@
 ---@field useMaxTurnSpeed bool
 ---@field useSpring bool
 MountedStabilizedTurret = {
-    ---@param position Vector3
-    CanAimAt = function ( position) end,
-    ---@param bearing float
-    ---@param min float
-    ---@param max float
-    GetNotchedClampYValues = function ( bearing,  min,  max) end,
+	---@param position Vector3
+	CanAimAt = function(position) end,
+	---@param bearing float
+	---@param min float
+	---@param max float
+	GetNotchedClampYValues = function(bearing, min, max) end,
 }

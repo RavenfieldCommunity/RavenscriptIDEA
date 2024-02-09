@@ -31,6 +31,4 @@
 ---@field unscaledDeltaTime float
 ---**Const**
 ---@field unscaledTime float
-Time = {
-    
-}
+Time = {}

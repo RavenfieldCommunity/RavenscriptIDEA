@@ -10,6 +10,6 @@
 ---@field flightAltitudeMultiplier float
 ---@field groundEffectAcceleration float
 Helicopter = {
-    ---@param info DamageInfo
-    StartBurning = function (info) end,
+	---@param info DamageInfo
+	StartBurning = function(info) end,
 }

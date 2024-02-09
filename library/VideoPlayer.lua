@@ -72,45 +72,45 @@
 ---**static Const**
 ---@field controlledAudioTrackMaxCount UInt16
 VideoPlayer = {
-    ---@param trackIndex UInt16
-    ---@param enabled bool
-    EnableAudioTrack = function (trackIndex,enabled) end,
-    ---@param trackIndex UInt16
-    ---@return UInt16
-    GetAudioChannelCount = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return string
-    GetAudioLanguageCode = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return UInt32
-    GetAudioSampleRate = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return bool
-    GetDirectAudioMute = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return float
-    GetDirectAudioVolume = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return AudioSource
-    GetTargetAudioSource = function (trackIndex) end,
-    ---@param trackIndex UInt16
-    ---@return bool
-    IsAudioTrackEnabled = function (trackIndex) end,
-    Pause = function () end,
-    Play = function () end,
-    Prepare = function () end,
-    ---@param trackIndex UInt16
-    ---@param mute bool
-    SetDirectAudioMute = function (trackIndex,mute) end,
-    ---@param trackIndex UInt16
-    ---@param volume float
-    SetDirectAudioVolume = function (trackIndex,volume) end,
-    ---@param localPath string
-    ---Sets the VideoPlayer url to a file in the mod content folder. This is the same as setting the VideoPlayer url to a local file path via the default Unity API. For example, cool_video.mov will load the file cool_video.mov next to your mutator rfc file.
-    SetModContentFileURL = function (localPath) end,
-    ---@param trackIndex UInt16
-    ---@param source AudioSource
-    SetTargetAudioSource = function (trackIndex,source) end,
-    StepForward = function () end,
-    Stop = function () end
+	---@param trackIndex UInt16
+	---@param enabled bool
+	EnableAudioTrack = function(trackIndex, enabled) end,
+	---@param trackIndex UInt16
+	---@return UInt16
+	GetAudioChannelCount = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return string
+	GetAudioLanguageCode = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return UInt32
+	GetAudioSampleRate = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return bool
+	GetDirectAudioMute = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return float
+	GetDirectAudioVolume = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return AudioSource
+	GetTargetAudioSource = function(trackIndex) end,
+	---@param trackIndex UInt16
+	---@return bool
+	IsAudioTrackEnabled = function(trackIndex) end,
+	Pause = function() end,
+	Play = function() end,
+	Prepare = function() end,
+	---@param trackIndex UInt16
+	---@param mute bool
+	SetDirectAudioMute = function(trackIndex, mute) end,
+	---@param trackIndex UInt16
+	---@param volume float
+	SetDirectAudioVolume = function(trackIndex, volume) end,
+	---@param localPath string
+	---Sets the VideoPlayer url to a file in the mod content folder. This is the same as setting the VideoPlayer url to a local file path via the default Unity API. For example, cool_video.mov will load the file cool_video.mov next to your mutator rfc file.
+	SetModContentFileURL = function(localPath) end,
+	---@param trackIndex UInt16
+	---@param source AudioSource
+	SetTargetAudioSource = function(trackIndex, source) end,
+	StepForward = function() end,
+	Stop = function() end,
 }

@@ -48,24 +48,24 @@
 ---Callback: callback(string value?)
 ---@field onValueChanged ScriptEvent
 InputField = {
-    ActivateInputField = function () end,
-    CalculateLayoutInputHorizontal = function () end,
-    CalculateLayoutInputVertical = function () end,
-    DeactivateInputField = function () end,
-    ForceLabelUpdate = function () end,
-    GraphicUpdateComplete = function () end,
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    ---@return bool
-    IsInteractable = function () end,
-    LayoutComplete = function () end,
-    ---@param shift bool
-    MoveTextEnd = function ( shift) end,
-    ---@param shift bool
-    MoveTextStart = function ( shift) end,
-    Select = function () end,
-    ---@param input string
-    SetTextWithoutNotify = function ( input) end,
+	ActivateInputField = function() end,
+	CalculateLayoutInputHorizontal = function() end,
+	CalculateLayoutInputVertical = function() end,
+	DeactivateInputField = function() end,
+	ForceLabelUpdate = function() end,
+	GraphicUpdateComplete = function() end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	---@return bool
+	IsInteractable = function() end,
+	LayoutComplete = function() end,
+	---@param shift bool
+	MoveTextEnd = function(shift) end,
+	---@param shift bool
+	MoveTextStart = function(shift) end,
+	Select = function() end,
+	---@param input string
+	SetTextWithoutNotify = function(input) end,
 }

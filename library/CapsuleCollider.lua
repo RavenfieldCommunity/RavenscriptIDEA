@@ -9,9 +9,7 @@
 ---@field radius float
 ---**Const**
 ---@field transform Transform
-CapsuleCollider = {
-
-}
+CapsuleCollider = {}
 
 ---@return CapsuleCollider
-CapsuleCollider = function () end
+CapsuleCollider = function() end

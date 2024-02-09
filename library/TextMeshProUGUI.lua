@@ -7,6 +7,4 @@
 ---@field text string
 ---**Const**
 ---@field transform Transform
-TextMeshProUGUI = {
-    
-}
+TextMeshProUGUI = {}

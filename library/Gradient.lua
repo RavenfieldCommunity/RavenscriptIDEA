@@ -5,7 +5,7 @@
 ---@overload fun():Gradient
 ---@operator call:Gradient
 Gradient = {
-    ---@param time float
-    ---@return Color
-    Evaluate = function ( time) end
+	---@param time float
+	---@return Color
+	Evaluate = function(time) end,
 }

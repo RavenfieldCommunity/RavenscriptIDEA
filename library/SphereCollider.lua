@@ -6,6 +6,4 @@
 ---@operator call:SphereCollider
 ---@field center Vector3
 ---@field radius float
-SphereCollider = {
-    
-}
+SphereCollider = {}

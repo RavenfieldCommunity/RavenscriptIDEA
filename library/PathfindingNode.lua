@@ -5,6 +5,6 @@
 ---**Const**
 ---@field position Vector3
 PathfindingNode = {
-    ---@return Vector3
-    RandomPointOnSurface = function () end
+	---@return Vector3
+	RandomPointOnSurface = function() end,
 }

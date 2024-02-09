@@ -1,6 +1,5 @@
 ---@meta Ravenscript
 
-
 ---@see http://ravenfieldgame.com/ravenscript/api/Engine.html
 ---@class Engine: Base
 ---@overload fun():Engine
@@ -17,8 +16,8 @@
 ---@field targetThrottle float
 ---@field throttleGainSpeed float
 Engine = {
-    PlayIgnitionSound = function () end,
-    PlayShiftForwardSound = function () end,
-    PlayShiftReverseSound = function () end,
-    Reset = function () end,
+	PlayIgnitionSound = function() end,
+	PlayShiftForwardSound = function() end,
+	PlayShiftReverseSound = function() end,
+	Reset = function() end,
 }

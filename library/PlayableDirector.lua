@@ -19,12 +19,12 @@
 ---Callback: callback()
 ---@field stopped ScriptEvent
 PlayableDirector = {
-    DeferredEvaluate = function () end,
-    Evaluate = function () end,
-    Pause = function () end,
-    Play = function () end,
-    RebindPlayableGraphOutputs = function () end,
-    RebuildGraph = function () end,
-    Resume = function () end,
-    Stop = function () end
+	DeferredEvaluate = function() end,
+	Evaluate = function() end,
+	Pause = function() end,
+	Play = function() end,
+	RebindPlayableGraphOutputs = function() end,
+	RebuildGraph = function() end,
+	Resume = function() end,
+	Stop = function() end,
 }

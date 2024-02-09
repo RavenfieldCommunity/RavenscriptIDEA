@@ -7,6 +7,3 @@
 --}
 --
 --rawset(_G,"atest",TO_DEF)
-
-
-

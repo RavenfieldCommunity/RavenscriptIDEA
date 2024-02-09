@@ -29,6 +29,4 @@
 ---@field weapons MountedWeapon[]
 ---**Const**
 ---@field vehicle Vehicle
-Seat = {
-    
-}
+Seat = {}

@@ -11,12 +11,12 @@
 ---**Const**
 ---@field transform Transform
 SoundBank = {
-    ---@return bool
-    IsPlaying = function () end,
-    PlayRandom = function () end,
-    ---@param index int
-    PlaySoundBank = function (index) end,
-    ---@param volume float
-    SetVolume = function (volume) end,
-    Start = function () end
+	---@return bool
+	IsPlaying = function() end,
+	PlayRandom = function() end,
+	---@param index int
+	PlaySoundBank = function(index) end,
+	---@param volume float
+	SetVolume = function(volume) end,
+	Start = function() end,
 }

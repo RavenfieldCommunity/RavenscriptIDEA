@@ -35,15 +35,15 @@
 ---@field verticalScrollbarSpacing float
 ---@field viewport RectTransform
 ScrollRect = {
-    CalculateLayoutInputHorizontal = function () end,
-    CalculateLayoutInputVertical = function () end,
-    GraphicUpdateComplete = function () end,
-    ---@return bool
-    IsActive = function () end,
-    ---@return bool
-    IsDestroyed = function () end,
-    LayoutComplete = function () end,
-    SetLayoutHorizontal = function () end,
-    SetLayoutVertical = function () end,
-    StopMovement = function () end
+	CalculateLayoutInputHorizontal = function() end,
+	CalculateLayoutInputVertical = function() end,
+	GraphicUpdateComplete = function() end,
+	---@return bool
+	IsActive = function() end,
+	---@return bool
+	IsDestroyed = function() end,
+	LayoutComplete = function() end,
+	SetLayoutHorizontal = function() end,
+	SetLayoutVertical = function() end,
+	StopMovement = function() end,
 }

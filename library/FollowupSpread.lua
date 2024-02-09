@@ -10,6 +10,4 @@
 ---@field spreadDissipateTime float
 ---@field spreadGain float
 ---@field spreadStayTime float
-FollowupSpread = {
-    
-}
+FollowupSpread = {}

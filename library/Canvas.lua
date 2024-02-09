@@ -36,17 +36,17 @@
 ---@field transform Transform
 ---@field worldCamera Camera
 Canvas = {
-    ---@param tag string
-    ---@return bool
-    CompareTag = function (tag) end,
-    ---@return int
-    GetHashCode = function () end,
-    ---**static**
-    ForceUpdateCanvases = function () end,
-    ---**static**
-    ---@return Material
-    GetDefaultCanvasMaterial = function () end,
-    ---**static**
-    ---@return  Material
-    GetETC1SupportedCanvasMaterial = function () end,
+	---@param tag string
+	---@return bool
+	CompareTag = function(tag) end,
+	---@return int
+	GetHashCode = function() end,
+	---**static**
+	ForceUpdateCanvases = function() end,
+	---**static**
+	---@return Material
+	GetDefaultCanvasMaterial = function() end,
+	---**static**
+	---@return  Material
+	GetETC1SupportedCanvasMaterial = function() end,
 }

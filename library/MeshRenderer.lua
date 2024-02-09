@@ -45,10 +45,10 @@
 ---**Const**
 ---@field worldToLocalMatrix Matrix4x4
 MeshRenderer = {
-    ---@param m Material[]
-    GetMaterials = function ( m) end,
-    ---@param m Material[]
-    GetSharedMaterials = function ( m) end,
-    ---@return bool
-    HasPropertyBlock = function () end,
+	---@param m Material[]
+	GetMaterials = function(m) end,
+	---@param m Material[]
+	GetSharedMaterials = function(m) end,
+	---@return bool
+	HasPropertyBlock = function() end,
 }

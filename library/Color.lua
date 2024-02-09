@@ -51,31 +51,31 @@
 ---enum
 ---@field yellow Color
 Color = {
-    --CANT RLZ operator --NEED FIX
+	--CANT RLZ operator --NEED FIX
 
-    ---**static**
-    ---@param H float
-    ---@param S float
-    ---@param V float
-    ---@param hdr bool
-    ---@return Color
-    HSVToRGB = function (H, S, V, hdr) end,
-    ---**static**
-    ---@param a Color
-    ---@param b Color
-    ---@param t float
-    ---@return Color
-    Lerp = function ( a,  b,  t) end,
-    ---**static**
-    ---@param a Color
-    ---@param b Color
-    ---@param t float
-    ---@return Color
-    LerpUnclamped = function ( a,  b,  t) end,
-    ---**static**
-    ---@param rgbColor Color
-    ---@param H float
-    ---@param S float
-    ---@param V float
-    RGBToHSV = function ( rgbColor,  H,  S,  V) end,
+	---**static**
+	---@param H float
+	---@param S float
+	---@param V float
+	---@param hdr bool
+	---@return Color
+	HSVToRGB = function(H, S, V, hdr) end,
+	---**static**
+	---@param a Color
+	---@param b Color
+	---@param t float
+	---@return Color
+	Lerp = function(a, b, t) end,
+	---**static**
+	---@param a Color
+	---@param b Color
+	---@param t float
+	---@return Color
+	LerpUnclamped = function(a, b, t) end,
+	---**static**
+	---@param rgbColor Color
+	---@param H float
+	---@param S float
+	---@param V float
+	RGBToHSV = function(rgbColor, H, S, V) end,
 }

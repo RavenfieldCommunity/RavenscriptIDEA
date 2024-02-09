@@ -21,21 +21,21 @@
 ---**Const**
 ---@field type OrderType
 Order = {
-    ---Drops the active override target position.
-    DropOverrideTargetPosition = function () end,
-    ---@return Vector3
-    GetOverrideTargetPosition = function () end,
-    ---Sets an override target position. Gives full control over exactly where the squad goes when completing the objective.
-    ---@param position Vector3
-    SetOverrideTargetPosition = function (position) end,
-    ---@param type OrderType
-    ---@param source SpawnPoint
-    ---@param target SpawnPoint
-    ---@param overridePosition? Vector3
-    ---@return Order
-    Create = function (type,source,target,overridePosition) end,
-    ---Convenience function that creates a move order to the specified override target position.
-    ---@param targetPosition Vector3
-    ---@return Order
-    CreateMoveOrder = function (targetPosition) end,
+	---Drops the active override target position.
+	DropOverrideTargetPosition = function() end,
+	---@return Vector3
+	GetOverrideTargetPosition = function() end,
+	---Sets an override target position. Gives full control over exactly where the squad goes when completing the objective.
+	---@param position Vector3
+	SetOverrideTargetPosition = function(position) end,
+	---@param type OrderType
+	---@param source SpawnPoint
+	---@param target SpawnPoint
+	---@param overridePosition? Vector3
+	---@return Order
+	Create = function(type, source, target, overridePosition) end,
+	---Convenience function that creates a move order to the specified override target position.
+	---@param targetPosition Vector3
+	---@return Order
+	CreateMoveOrder = function(targetPosition) end,
 }

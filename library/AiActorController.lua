@@ -46,26 +46,26 @@
 ---**Const**
 ---@field transform Transform
 AiActorController = {
-    ---Stops the current AI path movement
-    CancelPath = function () end,
-    ---Pathfinds to the closest destination point on the current navmesh.
-    ---@param destination Vector3
-    Goto = function (destination) end,
-    ---Orders the AI to enter the specified vehicle. Also sets the AI’s target vehicle to the specified vehicle.
-    ---@param vehicle Vehicle
-    GotoAndEnterVehicle = function (vehicle) end,
-    ---Go straight to the destination point, ignoring pathfinding.
-    ---@param destination Vector3
-    GotoDirect = function (destination) end,
-    ---Returns true if the targetActor is inside this actor’s field of view.
-    ---@overload fun(position:Vector3):bool Returns true if the position is inside this actor’s field of view.
-    ---@param targetActor Actor
-    ---@return bool
-    IsInFOV = function (targetActor,position) end,
-    ---Leaves the target vehicle.
-    LeaveVehicle = function () end,
-    ---Disables the built in AI movement, allowing full movement control from scripts.
-    OverrideDefaultMovement = function () end,
-    ---Re-enables the built in AI movement.
-    ReleaseDefaultMovementOverride = function () end,
+	---Stops the current AI path movement
+	CancelPath = function() end,
+	---Pathfinds to the closest destination point on the current navmesh.
+	---@param destination Vector3
+	Goto = function(destination) end,
+	---Orders the AI to enter the specified vehicle. Also sets the AI’s target vehicle to the specified vehicle.
+	---@param vehicle Vehicle
+	GotoAndEnterVehicle = function(vehicle) end,
+	---Go straight to the destination point, ignoring pathfinding.
+	---@param destination Vector3
+	GotoDirect = function(destination) end,
+	---Returns true if the targetActor is inside this actor’s field of view.
+	---@overload fun(position:Vector3):bool Returns true if the position is inside this actor’s field of view.
+	---@param targetActor Actor
+	---@return bool
+	IsInFOV = function(targetActor, position) end,
+	---Leaves the target vehicle.
+	LeaveVehicle = function() end,
+	---Disables the built in AI movement, allowing full movement control from scripts.
+	OverrideDefaultMovement = function() end,
+	---Re-enables the built in AI movement.
+	ReleaseDefaultMovementOverride = function() end,
 }

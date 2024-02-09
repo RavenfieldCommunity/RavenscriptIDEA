@@ -15,11 +15,11 @@
 ---**static Const**
 ---@field texture Texture
 Minimap = {
-    ---**static**
-    Render = function () end,
-    ---**static**
-    ---@param actorScale float
-    ---@param playerSquadScale float
-    ---@param viewConeScale float
-    SetBlipScale = function ( actorScale,  playerSquadScale,  viewConeScale) end,
+	---**static**
+	Render = function() end,
+	---**static**
+	---@param actorScale float
+	---@param playerSquadScale float
+	---@param viewConeScale float
+	SetBlipScale = function(actorScale, playerSquadScale, viewConeScale) end,
 }

@@ -6,6 +6,4 @@
 ---@operator call:LoadoutPickStrategy
 ---@field type LoadoutType
 ---@field distance Distance
-LoadoutPickStrategy = {
-    
-}
+LoadoutPickStrategy = {}

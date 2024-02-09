@@ -9,7 +9,7 @@
 ---**Const**
 ---@field transform Transform
 TriggerScriptedSignal = {
-    ---@param name string
-    ---@param context? SignalContext
-    Send = function (name,context) end
+	---@param name string
+	---@param context? SignalContext
+	Send = function(name, context) end,
 }

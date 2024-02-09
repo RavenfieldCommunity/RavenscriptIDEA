@@ -15,9 +15,9 @@
 ---@field rect Rect
 ---@field sizeDelta Vector2
 RectTransform = {
-    ForceUpdateRectTransforms = function () end,
-    ---@param fourCornersArray Vector3[]
-    GetLocalCorners = function (fourCornersArray) end,
-    ---@param fourCornersArray Vector3[]
-    GetWorldCorners = function (fourCornersArray) end,
+	ForceUpdateRectTransforms = function() end,
+	---@param fourCornersArray Vector3[]
+	GetLocalCorners = function(fourCornersArray) end,
+	---@param fourCornersArray Vector3[]
+	GetWorldCorners = function(fourCornersArray) end,
 }

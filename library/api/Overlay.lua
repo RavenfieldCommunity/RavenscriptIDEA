@@ -4,7 +4,7 @@
 ---**static**
 ---@class Overlay
 Overlay = {
-    ---@param text string
-    ---@param duration? float
-    ShowMessage = function (text,duration) end,
+	---@param text string
+	---@param duration? float
+	ShowMessage = function(text, duration) end,
 }

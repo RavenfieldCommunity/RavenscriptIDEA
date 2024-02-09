@@ -22,6 +22,4 @@
 ---@field transform Transform
 ---**Const**
 ---@field triangleIndex int
-RaycastHit = {
-    
-}
+RaycastHit = {}
