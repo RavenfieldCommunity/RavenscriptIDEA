@@ -1,0 +1,9 @@
+{
+    // if not set, the folder name will be used
+    "name"    : "Ravenscript IDEA",
+    // list of matched words
+    "words"   : ["."],
+    "files"   : ["."],
+    // lsit of settings to be changed
+    "settings"  : {}
+}

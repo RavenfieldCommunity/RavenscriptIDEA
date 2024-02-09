@@ -1,0 +1,17 @@
+{
+    "Lua.completion.keywordSnippet": "Both",
+    "Lua.runtime.plugin": "D:\\\\liuwh\\\\Project\\\\ravenscript",
+    "Lua.misc.parameters": [
+        "--develop=true"
+    ],
+    "Lua.completion.callSnippet": "Both",
+    "Lua.window.statusBar": true,
+    "Lua.completion.workspaceWord": false,
+    "Lua.diagnostics.libraryFiles": "Opened",
+    "Lua.hint.setType": true,
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.workspace.ignoreSubmodules": false,
+    "Lua.workspace.maxPreload": 300,
+    "Lua.diagnostics.disable": [
+    ]
+}

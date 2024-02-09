@@ -1,0 +1,84 @@
+{
+	"creat class": {
+	    "prefix": "cc",
+	    "body": [
+		    "---@meta Ravenscript",
+		    "",
+		    "---@see http://ravenfieldgame.com/ravenscript/api/.html",
+	    	"---@class ",
+	    	" = {",
+	    	"    ",
+	    	"}",
+	    ],
+	    "description": "creat class"
+	},
+
+	"creat overload": {
+	    "prefix": "co",
+	    "body": [
+			"---@overload fun():"
+		
+	    ],
+	    "description": "creat overload"
+	},
+
+	"creat event": {
+		"prefix": "cs",
+		"body": [
+			"---**Const**",
+			"---",
+			"---Callback: callback"
+			"---@field  ScriptEvent"
+		],
+		"description": "creat event"
+	},
+
+	"creat call": {
+		"prefix": "ca",
+		"body": [
+			"---@overload fun():",
+            "---@operator call:"
+		],
+		"description": "creat call"
+		},
+
+	"creat field": {
+		"prefix": "cf",
+		"body": [
+			"---@field "
+		],
+		"description": "creat field"
+	},
+
+	"creat func": {
+		"prefix": "cu",
+		"body": [
+			"= function () end,"
+		],
+		"description": "creat func"
+	},
+
+	"creat return": {
+		"prefix": "cr",
+		"body": [
+			"---@return "
+		],
+		"description": "creat return"
+	},
+
+	"creat prama": {
+		"prefix": "cp",
+		"body": [
+			"---@param"
+		],
+		"description": "creat param"
+	},
+
+	"creat see": {
+		"prefix": "ce",
+		"body": [
+			"---@see http://ravenfieldgame.com/ravenscript/api/.html"
+		],
+		"description": "creat see"
+	}
+}

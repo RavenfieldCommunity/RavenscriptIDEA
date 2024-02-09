@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"Lua.workspace.userThirdParty": [
+			"D:\\liuwh\\Project\\ravenscript"
+		],
+		"editor.wordWrap": "on"
+	}
+}

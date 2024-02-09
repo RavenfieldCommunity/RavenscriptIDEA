@@ -1,0 +1,85 @@
+---@meta
+
+---@class Vehicle
+---**Const**
+---The radius of the vehicle’s specified avoidance size
+---@field avoidanceRadius float
+---**Const**
+---Returns true if there is a line of sight between the vehicle’s lock on point and the player camera
+---@field canSeePlayer bool
+---**Const**
+---@field driver Actor
+---**Const**
+---@field engine Engine
+---**Const**
+---@field gameObject GameObject
+---**Const**
+---@field hasCountermeasures bool
+---**Const**
+---@field hasDriver bool
+---@field health float
+---**Const**
+---Returns true if this vehicle is an Airplane. If true, you can safely access fields via the Airplane class API.
+---@field isAirplane bool
+---**Const**
+---True while one or more target tracking weapons are locking onto this vehicle
+---@field isBeingLocked bool
+---**Const**
+---Returns true if this vehicle is a Boat. If true, you can safely access fields via the Boat class API.
+---@field isBoat bool
+---**Const**
+---@field isBurning bool
+---**Const**
+---Returns true if this vehicle is a Car. If true, you can safely access fields via the Car class API.
+---@field isCar bool
+---**Const**
+---@field isDead bool
+---**Const**
+---@field isEmpty bool
+---**Const**
+---@field isFull bool
+---**Const**
+---Returns true if this vehicle is a Helicopter. If true, you can safely access fields via the Helicopter class API.
+---@field isHelicopter bool
+---**Const**
+---@field isInWater bool
+---**Const**
+---True while one or more missiles are tracking this vehicle
+---@field isTrackedByMissile bool
+---**Const**
+---Returns true if vehicle is marked as a Turret.
+---@field isTurret bool
+---@field maxHealth float
+---**Const**
+---@field minimapBlip Texture
+---**Const**
+---@field name string
+---**Const**
+---@field playerDistance float
+---**Const**
+---@field playerIsInside bool
+---**Const**
+---@field rigidbody Rigidbody
+---**Const**
+---@field seats Seat[]
+---@field spotChanceMultiplier float
+---**Const**
+---@field team int
+---**Const**
+---@field transform Transform
+Vehicle = {
+    ---@param source Actor
+    ---@param amount float
+    Damage = function (source, amount) end,
+    ---Get the first available empty seat in the vehicle.
+    ---@param allowDriverSeat bool
+    ---@return Seat
+    GetEmptySeat = function (allowDriverSeat) end,
+    ---Returns all missile projectiles that are currently tracking this vehicle.
+    ---@return TargetSeekingMissileProjectile[]
+    GetTrackingMissiles = function () end,
+    ---Repairs the vehicle by the specified health amount. Returns true if the vehicle was healed (that is, if it was not already at max health.)
+    ---@param amount float
+    ---@return bool
+    Repair = function (amount) end,
+}
