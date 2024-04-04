@@ -1,7 +1,7 @@
 ---@meta Ravenscript
 
 ---http://ravenfieldgame.com/ravenscript/api/GameDifficulty.html
----@class GameDifficulty
+---@enum GameDifficulty
 GameDifficulty = {
 	Easy = 0,
 	Normal = 1,

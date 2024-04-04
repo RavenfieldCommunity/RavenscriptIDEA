@@ -1,7 +1,7 @@
 ---@meta Ravenscript
 
 ---http://ravenfieldgame.com/ravenscript/api/LoadoutType.html
----@class LoadoutType
+---@enum LoadoutType
 LoadoutType = {
 	Normal = 0,
 	Stealth = 1,

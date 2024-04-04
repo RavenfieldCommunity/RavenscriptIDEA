@@ -1,7 +1,7 @@
 ---@meta Ravenscript
 
 ---http://ravenfieldgame.com/ravenscript/api/SendMessageOptionshtml
----@class SendMessageOptions
+---@enum SendMessageOptions
 SendMessageOptions = {
 	RequireReceiver = 0,
 	DontRequireReceiver = 1,

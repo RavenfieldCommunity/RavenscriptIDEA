@@ -1,7 +1,7 @@
 ---@meta Ravenscript
 
 ---http://ravenfieldgame.com/ravenscript/api/FormationType.html
----@class FormationType
+---@enum FormationType
 FormationType = {
 	Wedge = 0,
 	Vee = 1,
