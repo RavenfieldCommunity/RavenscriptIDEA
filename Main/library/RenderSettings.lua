@@ -1,0 +1,46 @@
+---@meta Ravenscript
+
+---http://ravenfieldgame.com/ravenscript/api/RenderSettings.html
+---@class RenderSettings: Component
+---@field name string
+---**static**
+---@field ambientEquatorColor Color
+---**static**
+---@field ambientGroundColor Color
+---**static**
+---@field ambientIntensity float
+---**static**
+---@field ambientLight Color
+---**static**
+---@field ambientSkyColor Color
+---**static Const**
+---@field customReflection Texture
+---**static**
+---@field defaultReflectionResolution int
+---**static**
+---@field flareFadeSpeed float
+---**static**
+---@field flareStrength float
+---**static**
+---@field fog bool
+---**static**
+---@field fogColor Color
+---**static**
+---@field fogDensity float
+---**static**
+---@field fogEndDistance float
+---**static**
+---@field fogStartDistance float
+---**static**
+---@field haloStrength float
+---**static**
+---@field reflectionBounces int
+---**static**
+---@field reflectionIntensity float
+---**static**
+---@field skybox Material
+---**static**
+---@field subtractiveShadowColor Color
+---**static**
+---@field sun Light
+RenderSettings = {}

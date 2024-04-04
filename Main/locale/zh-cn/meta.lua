@@ -1,0 +1,4 @@
+-----@diagnostic disable: undefined-global, lowercase-global
+--
+--Physics                 =
+--'独立版Lua的启动参数。'
