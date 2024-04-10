@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Random.html
+---@see http://ravenfieldgame.com/ravenscript/api/Random.html
 ---**static**
 ---@class Random
 ---**static Const**
@@ -28,4 +28,7 @@ Random = {
 	---@param maxInclusive float | int
 	---@return float
 	Range = function(minInclusive, maxInclusive) end,
+	---@param minInclusive int
+	---@param maxInclusive int
+	RangeInteger = function(minInclusive, maxInclusive) end,
 }

@@ -1,0 +1,37 @@
+---@meta Ravenscript
+
+---http://ravenfieldgame.com/ravenscript/api/ConfigurableJoint.html
+---@class ConfigurableJoint: Component
+---@overload fun():ConfigurableJoint
+---@operator call:ConfigurableJoint
+---@field anchor Vector3
+---@field autoConfigureConnectedAnchor bool
+---@field axis Vector3
+---@field breakForce float
+---@field breakTorque float
+---@field configuredInWorldSpace bool
+---@field connectedAnchor Vector3
+---@field connectedBody Rigidbody
+---@field connectedMassScale float
+---**Const**
+---@field currentForce Vector3
+---**Const**
+---@field currentTorque Vector3
+---@field enableCollision bool
+---@field enablePreprocessing bool
+---**Const**
+---@field gameObject GameObject
+---@field massScale float
+---@field name string
+---@field projectionAngle float
+---@field projectionDistance float
+---@field secondaryAxis Vector3
+---@field swapBodies bool
+---@field tag string
+---@field targetAngularVelocity Vector3
+---@field targetPosition Vector3
+---@field targetRotation Quaternion
+---@field targetVelocity Vector3
+---**Const**
+---@field transform Transform
+ConfigurableJoint = {}
