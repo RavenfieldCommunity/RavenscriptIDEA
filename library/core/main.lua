@@ -4,7 +4,7 @@
 ---
 ---🎉Yor're succeed enabling RSIDEA with Update 2 (Published on July, 2024). Newest version is:
 ---
----![](https://img.shields.io/steam/update-date/3160495493?l)
+---![](https://img.shields.io/steam/update-date/3160495493)
 ---
 ---To get update, please open [addon manager](command:lua.addon_manager.open) and wait it fetch update (if `Update` button is appeared, cilck it, too).
 ---@param id string "behavior id"

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PathfindingNode.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PathfindingNode.html)
 ---@class PathfindingNode: Base
 ---**Const**
 ---@field position Vector3

@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/LoadoutType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/LoadoutType.html)
 ---@enum LoadoutType
 LoadoutType = {
 	Normal = 0,

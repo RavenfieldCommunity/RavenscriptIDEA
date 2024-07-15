@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Ladder.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Ladder.html)
 ---@class Ladder: Base
 ---**Const**
 ---Returns the bottom exit position of the ladder in world space

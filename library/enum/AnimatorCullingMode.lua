@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AnimatorCullingMode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AnimatorCullingMode.html)
 ---@enum AnimatorCullingMode
 AnimatorCullingMode = {
 	AlwaysAnimate = 0,

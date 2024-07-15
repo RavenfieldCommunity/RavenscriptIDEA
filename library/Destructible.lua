@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Destructible.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Destructible.html)
 ---@class Destructible: Base
 ---**Const**
 ---@field gameObject GameObject

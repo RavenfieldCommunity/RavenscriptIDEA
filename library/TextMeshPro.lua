@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TextMeshPro.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TextMeshPro.html)
 ---@class TextMeshPro: Base
 ---**Const**
 ---@field gameObject GameObject

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MeanFilterVector3.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MeanFilterVector3.html)
 ---@class MeanFilterVector3: Base
 ---@overload fun(taps: int):MeanFilterVector3
 ---@operator call:MeanFilterVector3

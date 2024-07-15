@@ -1,7 +1,14 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/DataContainer.html
----The DataStructure component can be placed on any GameObject using the Ravenfield Mod Tools. The component has several field arrays with different variable types where values can be assigned together with their id. The values can be read by id via the Ravenscript API, which is useful for configuration or mod<-[]mod functionality. For example, the float value with id myId can be accessed by GetFloat("myId"). It is also possible to read arrays of values using GetFloatArray("myId") which will return an array of the values with ids: myId1, myId2, myId3, myId4 .... The Array will automatically end when no more valid ids are found.
+---*Ravenfield Type*
+---
+---The DataStructure component can be placed on any GameObject using the Ravenfield Mod Tools. 
+---
+---The component has several field arrays with different variable types where values can be assigned together with their id. The values can be read by id via the Ravenscript API, which is useful for configuration or mod<-[]mod functionality.
+---
+---For example, the float value with id `myId` can be accessed by `GetFloat("myId")`. It is also possible to read arrays of values using `GetFloatArray("myId")` which will return an array of the values with ids: `myId1`, `myId2`, `myId3`, `myId4` .... The Array will automatically end when no more valid ids are found.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/DataContainer.html)
 ---@class DataContainer: Base
 ---**Const**
 ---@field gameObject GameObject

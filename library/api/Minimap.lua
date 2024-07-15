@@ -1,7 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Minimap.html
+---*Ravenfield Type*  **static**
+---
 ---Use this class to access the ingame minimap
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Minimap.html)
 ---@class Minimap
 ---**static Const**
 ---Texture of rendered actor blips excluding player squad. For performance reasons, this texture is not updated every frame.

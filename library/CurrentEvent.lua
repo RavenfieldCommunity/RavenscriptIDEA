@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/CurrentEvent.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/CurrentEvent.html)
 ---**static**
 ---@class CurrentEvent: Base
 ---**Const**

@@ -1,7 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ScriptedBehaviour.html
+---*Ravenfield Type*
+---
 ---All Ravenscript’s are executed and managed by a ScriptedBehaviour component. This component is accessable in Ravenscript through self.script.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ScriptedBehaviour.html)
 ---@class ScriptedBehaviour: Base
 ---**Const**
 ---@field gameObject GameObject

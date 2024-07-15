@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ConfigurableJoint.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ConfigurableJoint.html)
 ---@class ConfigurableJoint: Component
 ---@overload fun():ConfigurableJoint
 ---@operator call:ConfigurableJoint

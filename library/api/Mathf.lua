@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Mathf.html
+---*Unity Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Mathf.html)
 ---@class Mathf: Base
 ---@overload fun():Mathf
 ---@operator call:Mathf

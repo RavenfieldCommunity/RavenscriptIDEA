@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SoundBank.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SoundBank.html)
 ---@class SoundBank: Base
 ---@overload fun():SoundBank
 ---@operator call:SoundBank

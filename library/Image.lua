@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Image.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Image.html)
 ---@class Image: Base
 ---@field alphaHitTestMinimumThreshold float
 ---**Const**

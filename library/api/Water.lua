@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Water.html
----**static**
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Water.html)
 ---@class Water
 Water = {
 	---@param position Vector3

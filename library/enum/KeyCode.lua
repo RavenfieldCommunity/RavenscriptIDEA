@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/KeyCode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/KeyCode.html)
 ---@enum KeyCode
 KeyCode = {
 	None = 0,

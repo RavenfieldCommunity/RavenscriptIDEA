@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/IngameDialog.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use this class to play dialogs or text messages while ingame.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/IngameDialog.html)
 ---@class IngameDialog: Base
 IngameDialog = {
 	---Hides the dialog box using a transition effect.

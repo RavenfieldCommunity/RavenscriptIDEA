@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ShadowCastingMode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ShadowCastingMode.html)
 ---@enum ShadowCastingMode
 ShadowCastingMode = {
 	Off = 0,

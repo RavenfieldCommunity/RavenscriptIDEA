@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AvatarIKHint.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AvatarIKHint.html)
 ---@enum AvatarIKHint
 AvatarIKHint = {
 	LeftKnee = 0,

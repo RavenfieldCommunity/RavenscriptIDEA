@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Base.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Base.html)
 ---@class MonoBehaviour: Base
 ---**Const**
 ---@field gameObject GameObject

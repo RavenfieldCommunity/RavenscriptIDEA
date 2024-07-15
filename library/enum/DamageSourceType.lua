@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
---- http://ravenfieldgame.com/ravenscript/api/DamageSourceType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/DamageSourceType.html
 ---@enum DamageSourceType
 DamageSourceType = {
 	Unknown = 0,

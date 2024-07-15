@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Helicopter.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Helicopter.html)
 ---@class Helicopter : Vehicle
 ---@overload fun():Helicopter
 ---@operator call:Helicopter

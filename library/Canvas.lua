@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Canvas.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Canvas.html)
 ---@class Canvas: Base
 ---@overload fun():Canvas
 ---@operator call:Canvas

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/WeaponEntry.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/WeaponEntry.html)
 ---@class WeaponEntry: Base
 ---**Const**
 ---@field distance Distance

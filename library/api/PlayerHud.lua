@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PlayerHud.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use these methods to change the player HUD.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PlayerHud.html)
 ---@class PlayerHud
 ---**static**
 ---@field hudGameModeEnabled bool

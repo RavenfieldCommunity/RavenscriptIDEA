@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/FollowupSpread.html)
 ---@class FollowupSpread: Base
 ---@overload fun():FollowupSpread
 ---@operator call:FollowupSpread

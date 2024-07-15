@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SphereCollider.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SphereCollider.html)
 ---@class SphereCollider: Collider
 ---@overload fun():SphereCollider
 ---@operator call:SphereCollider

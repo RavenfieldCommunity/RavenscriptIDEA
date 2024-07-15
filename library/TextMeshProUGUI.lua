@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TextMeshProUGUI.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TextMeshProUGUI.html)
 ---@class TextMeshProUGUI: Base
 ---**Const**
 ---@field gameObject GameObject

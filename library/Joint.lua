@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Joint.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Joint.html)
 ---@class Joint: Component
 ---@overload fun():Joint
 ---@operator call:Joint

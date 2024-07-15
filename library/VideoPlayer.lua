@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/VideoPlayer.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/VideoPlayer.html)
 ---@class VideoPlayer: Component
 ---@overload fun():VideoPlayer
 ---@operator call:VideoPlayer

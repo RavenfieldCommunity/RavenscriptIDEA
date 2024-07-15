@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Order.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Order.html)
 ---@class Order: Base
 ---The priority of this order when not assigned to any squads.
 ---@field basePriority int

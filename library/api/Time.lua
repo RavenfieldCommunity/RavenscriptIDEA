@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Time.html
----**static**
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Time.html)
 ---@class Time
 ---**Const**
 ---@field deltaTime float

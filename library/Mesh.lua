@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Mesh.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Mesh.html)
 ---@class Mesh: Component
 ---@overload fun():Mesh
 ---@operator call:Mesh

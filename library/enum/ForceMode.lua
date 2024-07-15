@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ForceMode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ForceMode.html)
 ---@enum ForceMode
 ForceMode = {
 	Force = 0,

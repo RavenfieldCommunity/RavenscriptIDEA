@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AnimationCurve.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AnimationCurve.html)
 ---@class AnimationCurve: Base
 ---@overload fun():AnimationCurve
 ---@operator call:AnimationCurve

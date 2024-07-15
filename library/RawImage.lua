@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/RawImage.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/RawImage.html)
 ---@class RawImage: Base
 ---**Const**
 ---@field canvas Canvas

@@ -1,8 +1,11 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Bounds.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Bounds.html)
 ---@class Bounds: Base
----@overload fun(center?: Vector3, size?: Vector3):Bounds
+---@overload fun(center: Vector3, size: Vector3):Bounds
+---@overload fun():Bounds
 ---@operator call:Bounds
 ---@field center Vector3
 ---@field extents Vector3

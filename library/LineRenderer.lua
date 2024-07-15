@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/LineRenderer.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/LineRenderer.html)
 ---@class LineRenderer: Component
 ---@overload fun():LineRenderer
 ---@operator call:LineRenderer

@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/VehicleSpawnType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/VehicleSpawnType.html)
 ---@enum VehicleSpawnType
 VehicleSpawnType = {
 	Jeep = 0,

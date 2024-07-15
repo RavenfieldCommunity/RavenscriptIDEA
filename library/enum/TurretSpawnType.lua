@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TurretSpawnType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TurretSpawnType.html)
 ---@enum TurretSpawnType
 TurretSpawnType = {
 	MachineGun = 0,

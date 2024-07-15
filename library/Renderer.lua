@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Renderer.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Renderer.html)
 ---@class Renderer
 ---@overload fun():Renderer
 ---@operator call:Renderer

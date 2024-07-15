@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AiActorController.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AiActorController.html)
 ---@class AiActorController: Base
 ---Charge towards target at all times. If set to true, this AI will always run towards an enemy target, even when it is out of melee range.
 ---@field alwaysChargeTarget bool

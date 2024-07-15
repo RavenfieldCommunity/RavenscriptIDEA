@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/BoxCollider.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/BoxCollider.html)
 ---@class BoxCollider: Component
 ---@overload fun():BoxCollider
 ---@operator call:BoxCollider

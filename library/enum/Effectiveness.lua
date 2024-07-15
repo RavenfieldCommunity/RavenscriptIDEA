@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Effectiveness.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Effectiveness.html)
 ---@enum Effectiveness
 Effectiveness = {
 	No = 0,

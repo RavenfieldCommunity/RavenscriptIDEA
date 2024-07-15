@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Pathfinding.html
----**static**
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Pathfinding.html)
 ---@class Pathfinding
 Pathfinding = {
 	---@param position Vector3

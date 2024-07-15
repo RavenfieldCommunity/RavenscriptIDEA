@@ -1,8 +1,12 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/DamageInfo.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/DamageInfo.html)
 ---@class DamageInfo: Base
----@overload fun( type?: DamageSourceType,  sourceActor?: Actor,  sourceWeapon?: Weapon, source?: DamageInfo):DamageInfo --NEED FIX
+---@overload fun(source: DamageInfo):DamageInfo --NEED FIX
+---@overload fun(type: DamageSourceType,  sourceActor: Actor,  sourceWeapon: Weapon):DamageInfo --NEED FIX
+---@overload fun():DamageInfo
 ---@operator call:DamageInfo
 ---@field balanceDamage float
 ---@field direction Vector3

@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PortraitGenerator.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Used to render portrait sprites from actor skins.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PortraitGenerator.html)
 ---@class PortraitGenerator
 PortraitGenerator = {
 	---@param team Team

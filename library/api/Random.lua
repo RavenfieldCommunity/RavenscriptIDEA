@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----@see http://ravenfieldgame.com/ravenscript/api/Random.html
----**static**
+---*Unity Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Random.html)
 ---@class Random
 ---**static Const**
 ---@field insideUnitCircle Vector2

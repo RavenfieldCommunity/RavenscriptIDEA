@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AudioSource.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AudioSource.html)
 ---@class AudioSource: Component
 ---@overload fun():AudioSource
 ---@operator call:AudioSource

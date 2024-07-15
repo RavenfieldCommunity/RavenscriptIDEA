@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AudioMixer.html
 ---AudioSource的Output的枚举类
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AudioMixer.html)
 ---@enum AudioMixer
 AudioMixer = {
 	---Only affected by SFX volume=0, ignores time pitch.

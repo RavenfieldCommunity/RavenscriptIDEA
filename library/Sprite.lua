@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Sprite.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Sprite.html)
 ---@class Sprite: Component
 ---**Const**
 ---@field associatedAlphaSplitTexture Texture

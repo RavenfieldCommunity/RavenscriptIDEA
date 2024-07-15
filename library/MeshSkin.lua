@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MeshSkin.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MeshSkin.html)
 ---@class MeshSkin: Base
 ---@overload fun( mesh:Mesh,  materials:Material[],  teamMaterial:int):MeshSkin
 ---@operator call:MeshSkin

@@ -1,6 +1,8 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/GameObject.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/GameObject.html)
 ---@class GameObject: Component
 ---**Const**
 ---@field activeInHierarchy bool

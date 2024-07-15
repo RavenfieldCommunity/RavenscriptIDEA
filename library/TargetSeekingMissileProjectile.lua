@@ -1,5 +1,7 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TargetSeekingMissileProjectile.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TargetSeekingMissileProjectile.html)
 ---@class TargetSeekingMissileProjectile: RocketProjectile
 TargetSeekingMissileProjectile = {}

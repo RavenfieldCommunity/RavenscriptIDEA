@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SkillLevel.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SkillLevel.html)
 ---@enum SkillLevel
 SkillLevel = {
 	Beginner = 0,

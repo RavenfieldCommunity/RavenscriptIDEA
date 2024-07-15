@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PathfindingNodeType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PathfindingNodeType.html)
 ---@enum PathfindingNodeType
 PathfindingNodeType = {
 	Infantry = 0,

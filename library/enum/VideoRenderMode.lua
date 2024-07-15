@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/VideoRenderMode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/VideoRenderMode.html)
 ---@enum VideoRenderMode
 VideoRenderMode = {
 	CameraFarPlane = 0,

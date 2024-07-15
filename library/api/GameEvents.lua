@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/GameEvents.html
----**static**
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/GameEvents.html)
 ---@class GameEvents: Base
 ---@overload fun():GameEvents
 ---@operator call:GameEvents

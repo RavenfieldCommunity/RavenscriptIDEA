@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PlayerOrderState.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PlayerOrderState.html)
 ---@enum PlayerOrderState
 PlayerOrderState = {
 	Follow = 0,

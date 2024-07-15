@@ -1,6 +1,8 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/ExplosionInfo.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ExplosionInfo.html)
 ---@class ExplosionInfo: Base
 ---@overload fun():ExplosionInfo
 ---@operator call:ExplosionInfo

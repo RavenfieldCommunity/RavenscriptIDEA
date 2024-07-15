@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ScriptEvent.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ScriptEvent.html)
 ---@class ScriptEvent: Base
 ScriptEvent = {
 	---@param script DynValue

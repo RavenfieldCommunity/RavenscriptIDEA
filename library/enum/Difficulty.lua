@@ -1,6 +1,6 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/Difficulty.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Difficulty.html)
 ---@enum Difficulty
 Difficulty = {
 	Auto = 0,

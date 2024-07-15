@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/VideoClip.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/VideoClip.html)
 ---@class VideoClip: Component
 ---**Const**
 ---@field audioTrackCount UInt16

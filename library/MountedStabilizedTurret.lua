@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MountedStabilizedTurret.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MountedStabilizedTurret.html)
 ---@class MountedStabilizedTurret: MountedWeapon
 ---@overload fun():MountedStabilizedTurret
 ---@operator call:MountedStabilizedTurret

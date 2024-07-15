@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Engine.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Engine.html)
 ---@class Engine: Base
 ---@overload fun():Engine
 ---@operator call:Engine

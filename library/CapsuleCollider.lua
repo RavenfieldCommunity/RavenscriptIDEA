@@ -1,7 +1,11 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/CapsuleCollider.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/CapsuleCollider.html)
 ---@class CapsuleCollider: Collider
+---@overload fun():CapsuleCollider
+---@operator call:CapsuleCollider
 ---@field center Vector3
 ---@field contactOffset float
 ---@field direction int
@@ -10,6 +14,3 @@
 ---**Const**
 ---@field transform Transform
 CapsuleCollider = {}
-
----@return CapsuleCollider
-CapsuleCollider = function() end

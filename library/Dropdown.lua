@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Dropdown.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Dropdown.html)
 ---@class Dropdown: Base
 ---@field alphaFadeSpeed float
 ---**Const**

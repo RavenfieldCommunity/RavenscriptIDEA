@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----@see http://ravenfieldgame.com/ravenscript/api/ReflectionProbe.html
+---*Unity Type*
+---
+---@see http://ravenfieldgame.com/ravenscript/api/ReflectionProbe.html)
 ---@class ReflectionProbe: Component
 ---@overload fun():ReflectionProbe
 ---@operator call:ReflectionProbe

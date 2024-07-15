@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/RaycastHit.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/RaycastHit.html)
 ---@class RaycastHit: Base
 ---@overload fun():RaycastHit
 ---@operator call:RaycastHit

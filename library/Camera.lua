@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Camera.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Camera.html)
 ---@class Camera: Component
 ---@overload fun():Camera
 ---@operator call:Camera

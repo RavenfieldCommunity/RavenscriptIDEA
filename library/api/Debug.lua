@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Debug.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Contains helper functions that help you debug your code. Please note that for performance reasons, drawing rays and lines is only supported when launching the game in test mode.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Debug.html)
 ---@class Debug
 ---**Const**
 ---Returns true if the game has been launched from the Unity Editor via the -testcontentmod parameter.

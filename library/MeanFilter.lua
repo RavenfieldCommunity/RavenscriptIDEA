@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MeanFilter.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MeanFilter.html)
 ---@class MeanFilter: Base
 ---@overload fun(taps: int):MeanFilter
 ---@operator call:MeanFilter

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Airplane.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Airplane.html)
 ---@class Airplane : Vehicle
 ---@overload fun():Airplane
 ---@operator call:Airplane

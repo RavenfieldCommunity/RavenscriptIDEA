@@ -1,5 +1,8 @@
 ---@meta
 
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Vehicle.html)
 ---@class Vehicle
 ---**Const**
 ---The radius of the vehicle’s specified avoidance size

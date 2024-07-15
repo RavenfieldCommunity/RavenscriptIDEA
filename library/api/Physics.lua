@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Physics.html
---**static**
+---*Ravenfield Type*  **static**
+---
 ---Use these methods to interact with Unity’s physics engine.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Physics.html)
 ---@class Physics
 ---**static**
 ---@field gravity Vector3

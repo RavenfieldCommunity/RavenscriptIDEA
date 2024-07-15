@@ -1,8 +1,11 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Color.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Color.html)
 ---@class Color : Base
----@overload fun(r? : float,g?: float,b?: float,a?: float):Color --NEED FIX
+---@overload fun():Color
+---@overload fun(r : float,g: float,b: float,a?: float):Color
 ---@operator call:Color
 ---@field a float
 ---@field b float

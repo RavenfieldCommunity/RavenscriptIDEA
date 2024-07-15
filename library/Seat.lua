@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Seat.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Seat.html)
 ---@class Seat: Base
 ---**Const**
 ---@field activeWeapon MountedWeapon

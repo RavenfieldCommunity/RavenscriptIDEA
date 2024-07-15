@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/RigidbodyConstraints.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/RigidbodyConstraints.html)
 ---@enum RigidbodyConstraints
 RigidbodyConstraints = {
 	None = 0,

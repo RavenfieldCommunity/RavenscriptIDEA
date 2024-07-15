@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Screen.html
----**static**
+---*Unity Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Screen.html)
 ---@class Screen
 ---**Const**
 ---@field height float

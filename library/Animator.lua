@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Animator.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Animator.html)
 ---@class Animator: Component
 ---@overload fun():Animator
 ---@operator call:Animator

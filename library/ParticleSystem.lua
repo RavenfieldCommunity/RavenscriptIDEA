@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ParticleSystem.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ParticleSystem.html)
 ---@class ParticleSystem: Component
 ---@overload fun():ParticleSystem
 ---@operator call:ParticleSystem

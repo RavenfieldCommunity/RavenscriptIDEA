@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TriggerVolume.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TriggerVolume.html)
 ---@class TriggerVolume: Base
 ---**Const**
 ---@field gameObject GameObject

@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ArmorRating.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ArmorRating.html)
 ---@enum ArmorRating
 ArmorRating = {
 	SmallArms = 0,

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TurretSpawner.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TurretSpawner.html)
 ---@class TurretSpawner: Base
 ---**Const**
 ---@field activeTurret Vehicle

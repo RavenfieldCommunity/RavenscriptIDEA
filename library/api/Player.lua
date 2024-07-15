@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/.html
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Player.html)
 ---@class Player
 ---**static Const**
 ---@field actor Actor

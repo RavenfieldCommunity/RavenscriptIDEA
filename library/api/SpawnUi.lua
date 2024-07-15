@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SpawnUi.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use this class to control the loadout and deployment UI.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SpawnUi.html)
 ---@class SpawnUi
 ---**Const**
 ---@field hasBeenClosed bool

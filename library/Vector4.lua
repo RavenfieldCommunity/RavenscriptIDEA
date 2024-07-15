@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Vector4.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Vector4.html)
 ---@class Vector4: Component
 ---@overload fun():Vector4
 ---@overload fun(x:float,y:float,z?:float):Vector4

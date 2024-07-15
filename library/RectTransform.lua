@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/RectTransform.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/RectTransform.html)
 ---@class RectTransform: Transform
 ---@overload fun():RectTransform
 ---@operator call:RectTransform

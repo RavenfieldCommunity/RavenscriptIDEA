@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PrimitiveType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PrimitiveType.html)
 ---@enum PrimitiveType
 GameObject = {
 	Sphere = 0,

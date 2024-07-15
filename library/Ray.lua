@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Ray.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Ray.html)
 ---@overload fun(origin:Vector3, direction:Vector3):Ray
 ---@overload fun():Ray
 ---@operator call:Ray

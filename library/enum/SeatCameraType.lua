@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SeatCameraType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SeatCameraType.html)
 ---@enum SeatCameraType
 SeatCameraType = {
 	FreelookUnarmed = 0,

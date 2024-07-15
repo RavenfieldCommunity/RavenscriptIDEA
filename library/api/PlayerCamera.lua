@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use these methods to access the player cameras.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PlayerCamera.html)
 ---@class PlayerCamera
 ---**static Const**
 ---@field activeCamera Camera

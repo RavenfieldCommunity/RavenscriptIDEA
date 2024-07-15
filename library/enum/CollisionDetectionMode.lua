@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----@see http://ravenfieldgame.com/ravenscript/api/collisionDetectionMode.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/CollisionDetectionMode.html)
 ---@enum CollisionDetectionMode  
 CollisionDetectionMode  = {
     Discrete = 0,

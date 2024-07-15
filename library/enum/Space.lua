@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Space.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Space.html)
 ---@enum Space
 Space = {
 	World = 0,

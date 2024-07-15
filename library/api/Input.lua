@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Input.html
+---*Unity Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Input.html)
 ---@class Input: Base
 ---@overload fun():Input
 ---@operator call:Input

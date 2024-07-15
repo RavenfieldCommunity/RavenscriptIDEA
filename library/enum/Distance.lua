@@ -1,6 +1,6 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/Distance.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Distance.html)
 ---@enum Distance
 Distance = {
 	Short = 0,

@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/UIElement.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/UIElement.html)
 ---@enum UIElement
 UIElement = {
 	PlayerHealth = 0,

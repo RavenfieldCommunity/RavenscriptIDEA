@@ -1,7 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/WeaponManager.html
----**static**
+---*Ravenfield Type*  **static**
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/WeaponManager.html)
 ---@class WeaponManager
 ---**Const**
 ---All weapons loaded into the game.

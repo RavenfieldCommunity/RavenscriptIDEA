@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MountedWeapon.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MountedWeapon.html)
 ---@class MountedWeapon: Weapon
 ---@overload fun():MountedWeapon
 ---@operator call:MountedWeapon

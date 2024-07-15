@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/OrderType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/OrderType.html)
 ---@enum OrderType
 OrderType = {
 	Attack = 0,

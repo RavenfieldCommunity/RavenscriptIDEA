@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----@see http://ravenfieldgame.com/ravenscript/api/MountedStabilizedTurretClamp.html
+---*Ravenfield Type*
+---
+---@see http://ravenfieldgame.com/ravenscript/api/MountedStabilizedTurretClamp.html)
 ---@class MountedStabilizedTurretClamp: Component
 ---@operator call:MountedStabilizedTurretClamp
 ---@field enabled bool

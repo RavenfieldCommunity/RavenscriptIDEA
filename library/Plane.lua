@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Plane.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Plane.html)
 ---@class Plane: Base
 ---@overload fun(inNormal: Vector3, inPoint: Vector3):Plane
 ---@overload fun(inNormal: Vector3, d:float):Plane

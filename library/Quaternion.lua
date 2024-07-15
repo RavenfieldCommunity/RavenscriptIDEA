@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Quaternion.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Quaternion.html)
 ---@class Quaternion: Component
 ---@overload fun():Quaternion
 ---@overload fun(x:float , y:float, z:float, w:float):Quaternion

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AnimationDrivenVehicle.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AnimationDrivenVehicle.html)
 ---@class AnimationDrivenVehicle : Vehicle
 ---@overload fun():AnimationDrivenVehicle
 ---@operator call:AnimationDrivenVehicle

@@ -1,6 +1,8 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/SpawnPoint.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SpawnPoint.html)
 ---@class SpawnPoint: Base
 ---**Const**
 ---Casts this SpawnPoint into a CapturePoint; if possible

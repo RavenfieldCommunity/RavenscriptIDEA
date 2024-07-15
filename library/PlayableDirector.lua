@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/PlayableDirector.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PlayableDirector.html)
 ---@class PlayableDirector: Base
 ---@overload fun():PlayableDirector
 ---@operator call:PlayableDirector

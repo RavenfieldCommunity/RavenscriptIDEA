@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/WaitForSeconds.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/WaitForSeconds.html)
 ---@class WaitForSeconds: Base
 ---@overload fun(seconds:float):WaitForSeconds
 ---@operator call:WaitForSeconds

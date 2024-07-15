@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/LoadoutSet.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/LoadoutSet.html)
 ---@class LoadoutSet: Base
 ---@overload fun()
 ---@operator call:LoadoutSet

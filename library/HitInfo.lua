@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/HitInfo.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/HitInfo.html)
 ---@class HitInfo : Base
 ---@overload fun(data?: Actor | Vehicle | Destructible):HitInfo
 ---@operator call:HitInfo

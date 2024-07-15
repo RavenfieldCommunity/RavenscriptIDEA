@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Material.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Material.html)
 ---@class Material: Component
 ---@overload fun(source: Material):Material
 ---@operator call:Material

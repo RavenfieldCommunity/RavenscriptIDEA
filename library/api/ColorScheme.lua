@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ColorScheme.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use these methods to get the game’s color scheme.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ColorScheme.html)
 ---@class ColorScheme
 ColorScheme = {
 	---Returns the main color of a specific team.

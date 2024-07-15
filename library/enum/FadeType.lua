@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/FadeType.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/FadeType.html)
 ---@enum FadeType
 FadeType = {
 	FullScreen = 0,

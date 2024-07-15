@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ActorSkin.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ActorManager.html)
 ---@class ActorSkin: Base
 ---@overload fun():ActorSkin
 ---@operator call:ActorSkin

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Bounds.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Boat.html)
 ---@class Boat: Vehicle
 ---@overload fun():Boat
 ---@operator call:Boat

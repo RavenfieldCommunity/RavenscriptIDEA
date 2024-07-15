@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/WeaponSlot.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/WeaponSlot.html)
 ---@enum WeaponSlot
 WeaponSlot = {
 	Primary = 0,

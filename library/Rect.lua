@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Rect.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Rect.html)
 ---@class Rect: Component
 ---@overload fun():Rect
 ---@overload fun(x:float, y:float, idth:float, height:float):Rect

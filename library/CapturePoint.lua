@@ -1,6 +1,8 @@
 ---@meta
 
----http://ravenfieldgame.com/ravenscript/api/CapturePoint.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/CapturePoint.html)
 ---@class CapturePoint: SpawnPoint
 ---@field captureCeiling float
 ---@field captureFloor float

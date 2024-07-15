@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/VehicleSpawner.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/VehicleSpawner.html)
 ---@class VehicleSpawner: Base
 ---**Const**
 ---@field gameObject GameObject

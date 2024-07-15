@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MeshRenderer.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MeshRenderer.html)
 ---@class MeshRenderer: Component
 ---@overload fun():MeshRenderer
 ---@operator call:MeshRenderer

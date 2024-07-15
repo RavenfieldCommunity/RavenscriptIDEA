@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/AvatarIKGoal.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AvatarIKGoal.html)
 ---@enum AvatarIKGoal
 AvatarIKGoal = {
 	LeftFoot = 0,

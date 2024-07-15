@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/RaycastTarget.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/RaycastTarget.html)
 ---@enum RaycastTarget
 RaycastTarget = {
 	---The ground and most static objects such as buildings and trees

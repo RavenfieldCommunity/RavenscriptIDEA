@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/LoadoutPickStrategy.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/LoadoutPickStrategy.html)
 ---@class LoadoutPickStrategy: Base
 ---@overload fun( type: LoadoutType,  distance: Distance):LoadoutPickStrategy
 ---@operator call:LoadoutPickStrategy

@@ -1,7 +1,10 @@
 ---@meta Ravenscript
 
+---*Ravenfield Type*
+---
 ---玩家和Bot的基础类
----http://ravenfieldgame.com/ravenscript/api/Actor.html
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Actor.html)
 ---@class Actor: Base
 ---**Const**
 ---@field activeSeat Seat

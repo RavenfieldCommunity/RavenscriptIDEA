@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/TriggerScriptedSignal.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TriggerScriptedSignal.html)
 ---@class TriggerScriptedSignal: Base
 ---@overload fun():TriggerScriptedSignal
 ---@operator call:TriggerScriptedSignal

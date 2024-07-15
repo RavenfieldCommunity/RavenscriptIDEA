@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SignalContext.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SignalContext.html)
 ---@class SignalContext: Base
 ---@overload fun():SignalContext
 ---@operator call:SignalContext

@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Projectile.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Projectile.html)
 ---@class Projectile: Base
 ---The minimum armor rating that this projectile can damage
 ---@field armorDamage ArmorRating

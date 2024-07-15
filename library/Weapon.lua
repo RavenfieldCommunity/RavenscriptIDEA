@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Weapon.html
+---*Ravenfield Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Weapon.html
 ---@class Weapon: Base
 ---**Const**
 ---@field activeSightModeIndex int

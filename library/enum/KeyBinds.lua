@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/KeyBinds.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/KeyBinds.html)
 ---@enum KeyBinds
 KeyBinds = {
 	Horizontal = 0,

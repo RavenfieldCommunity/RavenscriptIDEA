@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/Rigidbody.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Rigidbody.html)
 ---@class Rigidbody: Base
 ---@overload fun():Rigidbody
 ---@operator call:Rigidbody

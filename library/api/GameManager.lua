@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/GameManager.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---Use these methods to access game configuration.
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/GameManager.html)
 ---@class GameManager
 ---**Const**
 ---Gets the build number. Running this on EA Build 20 returns 20.

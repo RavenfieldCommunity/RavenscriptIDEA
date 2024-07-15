@@ -1,8 +1,10 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/MathUtils.html
----**static**
+---*Ravenfield Type*  **static**
+---
 ---This class provides some math functionality that is useful for 3d maths
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/MathUtils.html)
 ---@class MathUtils
 MathUtils = {
 	---A frame rate independent alternative to damping using Mathf.Lerp()

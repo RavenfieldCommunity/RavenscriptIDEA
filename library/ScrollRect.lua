@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/ScrollRect.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ScrollRect.html)
 ---@class ScrollRect: Base
 ---@field content RectTransform
 ---@field decelerationRate float

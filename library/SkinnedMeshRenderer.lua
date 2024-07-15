@@ -1,6 +1,8 @@
 ---@meta Ravenscript
 
----http://ravenfieldgame.com/ravenscript/api/SkinnedMeshRenderer.html
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/SkinnedMeshRenderer.html)
 ---@class SkinnedMeshRenderer: Component
 ---@overload fun():SkinnedMeshRenderer
 ---@operator call:SkinnedMeshRenderer
