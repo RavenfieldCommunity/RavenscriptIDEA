@@ -9,7 +9,7 @@
 ---@field angularDrag float
 ---@field angularVelocity Vector3
 ---@field centerOfMass Vector3
----@field collisionDetectionMode CollisionDetectionMode 
+---@field collisionDetectionMode CollisionDetectionMode
 ---@field constraints RigidbodyConstraints
 ---@field detectCollisions bool
 ---@field drag float

@@ -49,8 +49,8 @@
 ---**static Const**
 ---@field minBakedCubemapResolution int
 ReflectionProbe = {
-    ---@param renderId int
-    ---@return bool
-    IsFinishedRendering = function (renderId) end,
-    Reset = function () end
+	---@param renderId int
+	---@return bool
+	IsFinishedRendering = function(renderId) end,
+	Reset = function() end,
 }

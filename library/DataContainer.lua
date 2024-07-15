@@ -2,7 +2,7 @@
 
 ---*Ravenfield Type*
 ---
----The DataStructure component can be placed on any GameObject using the Ravenfield Mod Tools. 
+---The DataStructure component can be placed on any GameObject using the Ravenfield Mod Tools.
 ---
 ---The component has several field arrays with different variable types where values can be assigned together with their id. The values can be read by id via the Ravenscript API, which is useful for configuration or mod<-[]mod functionality.
 ---

@@ -15,5 +15,5 @@
 ---@field vehicleRigidbodyRecoilForce float
 MountedWeapon = {
 	---@return bool
-	IsClampedTurret = function() end
+	IsClampedTurret = function() end,
 }

@@ -8,6 +8,4 @@
 ---@field enabled bool
 ---@field max float
 ---@field min float
-MountedStabilizedTurretClamp = {
-    
-}
+MountedStabilizedTurretClamp = {}

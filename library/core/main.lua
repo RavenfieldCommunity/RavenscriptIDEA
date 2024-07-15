@@ -27,7 +27,7 @@ function behaviour(id) end
 ---Represents a double-precision floating-point number. (Range：-1.7E-308～1.7E+308)
 ---@alias double float
 ---@alias bool boolean
----Represents a character as a UTF-16 code unit. 
+---Represents a character as a UTF-16 code unit.
 ---@alias Char string
 ---Represents an 8-bit unsigned integer. (Range: 0-255)
 ---@alias Byte number
