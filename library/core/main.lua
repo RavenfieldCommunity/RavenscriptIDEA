@@ -1,33 +1,35 @@
 ---@meta Ravenscript
 
----注册behaviour以从此类派生table
----like this:
----`---@meta`
----`rawset(_G,"atest",Behaviours)`
----`atest.a = ANY`
----@param id string behavior的注册id
+---Register behaviour to derive table
+---
+---🎉Yor're succeed enabling RSIDEA with Update 2 (Published on July, 2024). Newest version is:
+---
+---![](https://img.shields.io/steam/update-date/3160495493?l)
+---
+---To get update, please open [addon manager](command:lua.addon_manager.open) and wait it fetch update (if `Update` button is appeared, cilck it, too).
+---@param id string "behavior id"
 function behaviour(id) end
 
----
+---Any value
 ---@alias DynValue any
----整数
+---Integer
 ---@alias int integer
----浮点数
+---Float
 ---@alias float number
----固定长度的整型(范围：18446744073709551615)
+---Represents a 64-bit unsigned integer. (Range：0 to 18446744073709551615)
 ---@alias UInt64 number
----32位无符号整数(范围：4294967295)
+---Represents a 32-bit unsigned integer. (Range: 0 to 4294967295)
 ---@alias UInt32 number
----16位无符号整数(范围：65535)
+---Represents a 16-bit unsigned integer. (Range: 0 to 65535)
 ---@alias UInt16 number
----双精度浮点数（范围：-1.7E-308～1.7E+308）
+---Represents a double-precision floating-point number. (Range：-1.7E-308～1.7E+308)
 ---@alias double float
 ---@alias bool boolean
----只可容纳单个字符（范围: -2^7 ~ 2^7-1）
+---Represents a character as a UTF-16 code unit. 
 ---@alias Char string
----8位无符号数（范围: 0-255）
+---Represents an 8-bit unsigned integer. (Range: 0-255)
 ---@alias Byte number
----有符号 64 位整数（范围: -2^63 ~ 2^63-1）
+---Represents a 64-bit signed integer. (Range: 0 to 18446744073709551615)
 ---@alias Int64 int
 
 ---@class Behaviours: ScriptedBehaviour
@@ -59,7 +61,7 @@ Behaviours = {}
 
 ---@class Component: Base
 local Component = {
-	---此游戏对象是否使用 tag 进行了标记？
+	---Is this game object tagged with tag ?
 	---@param tag string
 	---@return boolean
 	CompareTag = function(tag) end,
@@ -69,7 +71,7 @@ local Component = {
 
 ---@class Base
 local Base = {
-	---返回对象的名称。
+	---Return object's name.
 	---@return string
 	ToString = function() end,
 }

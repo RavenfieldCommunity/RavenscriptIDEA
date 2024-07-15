@@ -27,9 +27,10 @@ Squad = {
 	---Cancels a landing.
 	CancelLanding = function() end,
 	---@param position Vector3
-	---@param onLandFunctionName? string
-	---@param eventData? DynValue
-	---Lands at position and calls function when landing completes. Callback function signature: OnLand(squad, eventData)
+	---@overload fun(position:Vector3)
+	---@overload fun(position:Vector3, onLandFunctionName:string)
+	---@overload fun(position:Vector3, onLandFunctionName:string, eventData:DynValue)
+	---Lands at position and calls function when landing completesllback f. Caunction signature: OnLand(squad, eventData)
 	LandHelicopterAtPosition = function(position, onLandFunctionName, eventData) end,
 	---@param member Actor
 	---Removes a member from this squad.

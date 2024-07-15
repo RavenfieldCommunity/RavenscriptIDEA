@@ -1,0 +1,54 @@
+---@meta Ravenscript
+
+---@see http://ravenfieldgame.com/ravenscript/api/ReflectionProbe.html
+---@class ReflectionProbe: Component
+---@overload fun():ReflectionProbe
+---@operator call:ReflectionProbe
+---@field backgroundColor Color
+---@field bakedTexture Texture
+---@field blendDistance float
+---**Const**
+---@field bounds Bounds
+---**Const**
+---@field boxProjection bool
+---@field center Vector3
+---@field cullingMask int
+---@field customBakedTexture Texture
+---@field enabled bool
+---@field farClipPlane float
+---**Const**
+---@field gameObject GameObject
+---@field hdr bool
+---@field importance int
+---@field intensity float
+---**Const**
+---@field isActiveAndEnabled bool
+---@field name string
+---@field nearClipPlane float
+---**Const**
+---@field realtimeTexture Texture
+---@field renderDynamicObjects bool
+---@field resolution int
+---@field shadowDistance float
+---@field size Vector3
+---@field tag string
+---**Const**
+---@field texture Texture
+---**Const**
+---@field textureHDRDecodeValues Vector4
+---**Const**
+---@field transform Transform
+---**static Const**
+---@field defaultTexture Texture
+---**static Const**
+---@field defaultTextureHDRDecodeValues Vector4
+---**static Const**
+---@field maxBakedCubemapResolution int
+---**static Const**
+---@field minBakedCubemapResolution int
+ReflectionProbe = {
+    ---@param renderId int
+    ---@return bool
+    IsFinishedRendering = function (renderId) end,
+    Reset = function () end
+}
