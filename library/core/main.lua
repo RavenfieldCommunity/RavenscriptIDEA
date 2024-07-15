@@ -7,6 +7,8 @@
 ---![](https://img.shields.io/steam/update-date/3160495493)
 ---
 ---To get update, please open [addon manager](command:lua.addon_manager.open) and wait it fetch update (if `Update` button is appeared, cilck it, too).
+---
+---[Official Website](https://ravenfieldcommunity.github.io/docs/)
 ---@param id string "behavior id"
 function behaviour(id) end
 
