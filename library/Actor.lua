@@ -22,9 +22,11 @@
 ---**Const**
 ---Gets the AiActorController of this actor. Returns nil if called on the player actor.
 ---@field aiController AiActorController
+---@field attackersIgnoreEngagementRules bool 
 ---@field balance float
 ---**Const**
 ---@field canBeSeated bool
+---@field canBeTargeted bool
 ---**Const**
 ---Returns true if the actor can capture points. This value may be false if the actor is in a vehicle that cannot capture points such as helicopters, etc
 ---@field canCapturePoint bool
@@ -42,6 +44,7 @@
 ---@field facingDirection Vector3
 ---**Const**
 ---@field gameObject GameObject
+---@field hasHeroArmor bool
 ---@field health float
 ---Controls the enabled flag on this Actor’s hitbox colliders. Disabling them means this actor can not be hit by projectiles or collide with vehicles
 ---@field hitboxCollidersAreEnabled bool
@@ -68,6 +71,7 @@
 ---@field isFrozen bool
 ---**Const**
 ---@field isInWater bool
+---@field isInvulnerable bool
 ---**Const**
 ---True while Actor is climbing a Ladder.
 ---@field isOnLadder bool
