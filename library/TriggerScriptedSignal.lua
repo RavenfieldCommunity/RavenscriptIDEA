@@ -16,5 +16,5 @@ TriggerScriptedSignal = {
 	Send = function(entryName, context) end,
 	---@param entryName string
 	---@param context? SignalContext
-	SendGlobalNamedSignal = function(entryName, context) end
+	SendGlobalNamedSignal = function(entryName, context) end,
 }

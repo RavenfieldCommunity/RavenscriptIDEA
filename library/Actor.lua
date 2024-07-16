@@ -22,7 +22,7 @@
 ---**Const**
 ---Gets the AiActorController of this actor. Returns nil if called on the player actor.
 ---@field aiController AiActorController
----@field attackersIgnoreEngagementRules bool 
+---@field attackersIgnoreEngagementRules bool
 ---@field balance float
 ---**Const**
 ---@field canBeSeated bool
