@@ -4,4 +4,12 @@
 ---
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/TargetSeekingMissileProjectile.html)
 ---@class TargetSeekingMissileProjectile: RocketProjectile
-TargetSeekingMissileProjectile = {}
+---**const**
+---@field currentTarget Actor
+---**const**
+---@field isTrackingTarget bool
+TargetSeekingMissileProjectile = {
+    ClearTrackerTarget = function() end,
+    ---@param vehicle Vehicle
+    SetTrackerTarget = function(vehicle) end
+}
