@@ -2,7 +2,7 @@
 
 ---Register behaviour to derive table
 ---
----🎉Yor're succeed enabling RSIDEA with Update 2 (Published on July, 2024). Newest version is:
+---🎉Yor're succeed enabling RSIDEA with Update 3 (Published on Sept, 2024). Newest version is:
 ---
 ---![](https://img.shields.io/steam/update-date/3160495493)
 ---
