@@ -9,7 +9,7 @@
 ---**const**
 ---@field isTrackingTarget bool
 TargetSeekingMissileProjectile = {
-    ClearTrackerTarget = function() end,
-    ---@param vehicle Vehicle
-    SetTrackerTarget = function(vehicle) end
+	ClearTrackerTarget = function() end,
+	---@param vehicle Vehicle
+	SetTrackerTarget = function(vehicle) end,
 }

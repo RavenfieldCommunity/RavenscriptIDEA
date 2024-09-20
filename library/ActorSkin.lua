@@ -18,5 +18,5 @@ local ActorSkin = {
 	---@param MeshSkinalt1? MeshSkin
 	---@param MeshSkinfallback MeshSkin
 	---@return MeshSkin
-	ResolveFirstValidMeshSkin = function(MeshSkinalt0, MeshSkinalt1, MeshSkinfallback) end
+	ResolveFirstValidMeshSkin = function(MeshSkinalt0, MeshSkinalt1, MeshSkinfallback) end,
 }

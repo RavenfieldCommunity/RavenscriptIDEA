@@ -4,6 +4,6 @@
 ---@enum Stance
 Stance = {
 	Stand = 0,
-    Crouch = 1,
-    Prone = 2,
+	Crouch = 1,
+	Prone = 2,
 }

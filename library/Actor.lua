@@ -265,7 +265,7 @@ Actor = {
 	---@param position float
 	---@param rotation Quaternion
 	TeleportTo = function(position, rotation) end,
-    ---Forces the actor stance, regardless of level geometry
+	---Forces the actor stance, regardless of level geometry
 	---@param stance Stance
 	ForceStance = function(stance) end,
 }

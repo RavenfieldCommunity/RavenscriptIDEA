@@ -14,7 +14,7 @@
 --- **Const**
 ---@field transform Transform
 --- **Const**
---- 
+---
 ---Callback: void callback()
 ---@field onClick ScriptEvent
 ---**Const**
