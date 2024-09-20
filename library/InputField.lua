@@ -47,6 +47,26 @@
 ---@field transform Transform
 ---**Const**
 ---@field wasCanceled bool
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerDown ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerEnter ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerExit ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerUp ScriptEvent
 ---Callback: callback(string value?)
 ---@field onValueChanged ScriptEvent
 InputField = {

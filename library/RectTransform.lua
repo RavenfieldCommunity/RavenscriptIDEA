@@ -10,6 +10,14 @@
 ---@field anchoredPosition3D Vector3
 ---@field anchorMax Vector2
 ---@field anchorMin Vector2
+---**Const**
+---
+---Returns this transform as a rect transform. If unavailable, returns nil.
+---@field asRectTransform RectTransform
+---**Const**
+---
+---Returns this RectTransform as a transform
+---@field asTransform Transform
 ---@field offsetMax Vector2
 ---@field offsetMin Vector2
 ---@field pivot Vector2

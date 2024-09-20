@@ -38,8 +38,20 @@
 ---@field allowSprint bool
 ---**static Const**
 ---@field enemyTeam Team
+---**static**
+---
+---Controls if all player input is ignored
+---@field inputEnabled bool
 ---**static Const**
 ---@field isSpectator bool
+---**static**
+---
+---Controls if player infantry movement is active
+---@field movementEnabled bool
+---**static**
+---
+---Controls if player can control infantry/vehicle movement
+---@field movementInputEnabled bool
 ---**static Const**
 ---@field nighvisionEnabled bool
 ---**static**

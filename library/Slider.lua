@@ -16,6 +16,26 @@
 ---@field minValue float
 ---@field normalizedValue float
 ---**Const**
+---
+---Callback: void callback()
+---@field onPointerClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerDown ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerEnter ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerExit ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerUp ScriptEvent
+---**Const**
 ---@field transform Transform
 ---@field value float
 ---@field wholeNumbers bool

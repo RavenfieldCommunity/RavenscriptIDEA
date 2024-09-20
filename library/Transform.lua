@@ -5,6 +5,10 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Transform.html)
 ---@class Transform: Component
 ---**Const**
+---
+---Returns this transform as a rect transform. If unavailable, returns nil.
+---@field asRectTransform RectTransform
+---**Const**
 ---@field childCount int
 ---@field eulerAngles Vector3
 ---@field forward Vector3

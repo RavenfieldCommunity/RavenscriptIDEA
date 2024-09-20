@@ -25,6 +25,26 @@
 ---@field minWidth float
 ---@field normalizedPosition Vector2
 ---**Const**
+---
+---Callback: void callback()
+---@field onPointerClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerDown ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerEnter ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerExit ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerUp ScriptEvent
+---**Const**
 ---@field preferredHeight float
 ---**Const**
 ---@field preferredWidth float

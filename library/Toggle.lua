@@ -12,6 +12,26 @@
 ---@field interactable bool
 ---@field isOn bool
 ---**Const**
+---
+---Callback: void callback()
+---@field onPointerClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerDown ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerEnter ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerExit ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerUp ScriptEvent
+---**Const**
 ---@field transform Transform
 ---**Const**
 ---Callback: callback()
