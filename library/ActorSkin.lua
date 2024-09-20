@@ -13,4 +13,10 @@
 local ActorSkin = {
 	---@return ActorSkin
 	Clone = function() end,
+	---**static**
+	---@param MeshSkinalt0 MeshSkin
+	---@param MeshSkinalt1? MeshSkin
+	---@param MeshSkinfallback MeshSkin
+	---@return MeshSkin
+	ResolveFirstValidMeshSkin = function(MeshSkinalt0, MeshSkinalt1, MeshSkinfallback) end
 }

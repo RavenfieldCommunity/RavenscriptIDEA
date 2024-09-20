@@ -11,7 +11,31 @@
 ---**static**
 ---@field allowAutoWaveRespawn bool
 ---**static**
+---
+---Controls if player can change stances
+---@field allowChangeStance bool
+---**static**
+---
+---Controls if player can exit vehicles
+---@field allowExitVehicle bool
+---**static**
+---
+---Controls if player can jump
+---@field allowJump bool
+---**static**
+---
+---Controls if player can exit kick
+---@field allowKick bool
+---**static**
+---
+---Controls if player can exit lean
+---@field allowLean bool
+---**static**
 ---@field allowMouseLook bool
+---**static**
+---
+---Controls if player can sprint
+---@field allowSprint bool
 ---**static Const**
 ---@field enemyTeam Team
 ---**static Const**

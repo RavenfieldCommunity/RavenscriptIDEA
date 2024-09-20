@@ -11,5 +11,17 @@
 ---**Const**
 ---@field isDead bool
 ---**Const**
+---
+---Invoked when the destructible dies.
+---
+---Callback: void callback()
+---@field onDeath ScriptEvent
+---**Const**
+---
+---Invoked when the destructible takes damage.
+---
+---Callback: void callback()
+---@field onTakeDamage ScriptEvent
+---**Const**
 ---@field transform Transform
 Destructible = {}

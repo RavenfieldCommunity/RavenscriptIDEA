@@ -14,8 +14,29 @@
 --- **Const**
 ---@field transform Transform
 --- **Const**
+--- 
 ---Callback: void callback()
 ---@field onClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerClick ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerDown ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerEnter ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerExit ScriptEvent
+---**Const**
+---
+---Callback: void callback()
+---@field onPointerUp ScriptEvent
 ---**static Const**
 ---@field allSelectableCount int
 Button = {

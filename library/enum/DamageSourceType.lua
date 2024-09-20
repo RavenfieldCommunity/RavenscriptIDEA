@@ -12,5 +12,6 @@ DamageSourceType = {
 	FallDamage = 6,
 	DamageZone = 7,
 	Exception = 8,
-	Scripted = 9,
+	ProjectileShatter = 9,
+	Scripted = 10,
 }
