@@ -3,7 +3,7 @@
 ---*Ravenfield Type*  **static**
 ---
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/ActorManager.html)
----@class ActorManeger
+---@class ActorManager
 ---**Const**
 ---@field actors Actor[]
 ---**Const**
@@ -18,7 +18,7 @@
 ---**Const**
 ---All currently spawned vehicles
 ---@field vehicles Vehicle[]
-ActorManeger = {
+ActorManager = {
 	---@param actor Actor
 	---@return bool
 	ActorCanSeePlayer = function(actor) end,
