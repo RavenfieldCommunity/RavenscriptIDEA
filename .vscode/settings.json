@@ -1,6 +1,6 @@
 {
     "Lua.completion.keywordSnippet": "Both",
-    "Lua.runtime.plugin": "D:\\\\liuwh\\\\Project\\\\ravenscript",
+    "Lua.runtime.plugin": "plugin.lua",
     "Lua.misc.parameters": [
         "--develop=true"
     ],

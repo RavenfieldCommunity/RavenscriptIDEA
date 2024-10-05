@@ -1,14 +1,20 @@
 ---@meta Ravenscript
 
----Register behaviour to derive table
----
----🎉Yor're succeed enabling RSIDEA with Update 3 (Published on Sept, 2024). Newest version is:
+---🎉Yor're succeed enabling RSIDEA with Update 4 (Released on Oct, 2024). Newest version is:
 ---
 ---![](https://img.shields.io/steam/update-date/3160495493)
 ---
----To get update, please open [addon manager](command:lua.addon_manager.open) and wait it fetch update (if `Update` button is appeared, cilck it, too).
+---To get update, please open [addon manager](command:lua.addon_manager.open) and wait for fetching update (if `Update` button is appeared, cilck it, too).
 ---
 ---[Official Website](https://ravenfieldcommunity.github.io/docs/)
+---
+--- ------
+---
+---Please define variables in function! (except readonly variables)
+---
+--- ------
+---
+---Register your behaviour to derive "class" table
 ---@param id string "behavior id"
 function behaviour(id) end
 
