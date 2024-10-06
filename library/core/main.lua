@@ -65,7 +65,7 @@ function behaviour(id) end
 ---@field LateUpdate function
 ---@field FixedUpdate function
 ---@field OnAnimatorIK function
-Behaviours = {}
+local Behaviours = {}
 
 ---@class Component: Base
 local Component = {
@@ -83,6 +83,3 @@ local Base = {
 	---@return string
 	ToString = function() end,
 }
-
----@type any
-ANY = { TO_DEF = true }

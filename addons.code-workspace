@@ -5,9 +5,6 @@
 		}
 	],
 	"settings": {
-		"Lua.workspace.userThirdParty": [
-			"D:\\liuwh\\Project\\ravenscript"
-		],
 		"Lua.runtime.plugin": "plugin.lua",
 		"editor.wordWrap": "on"
 	}

@@ -10,7 +10,7 @@
 ---@field characterSkin MeshSkin
 ---@field kickLegSkin MeshSkin
 ---@field name string
-local ActorSkin = {
+ActorSkin = {
 	---@return ActorSkin
 	Clone = function() end,
 	---**static**
