@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----🎉Yor're succeed enabling RSIDEA with Update 4 (Released on Oct, 2024). Newest version is:
+---🎉You're succeed enabling RSIDEA with Update 4 (Released on Oct, 2024). Newest version is:
 ---
 ---![](https://img.shields.io/steam/update-date/3160495493)
 ---
