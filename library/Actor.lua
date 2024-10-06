@@ -252,7 +252,7 @@ Actor = {
 	---Set the local scale of the WeaponParent transform, which controls scale of all held weapons.
 	---@param scale float
 	SetWeaponParentScale = function(scale) end,
-	---@param position float
+	---@param position Vector3
 	---@param rotation? Quaternion
 	SpawnAt = function(position, rotation) end,
 	---Swaps with the target seat. If the target seat is already occupied, the two occupants will be swapped. If the target seat is not in the same vehicle, the swap is canceled and this function returns false.
