@@ -10,5 +10,5 @@ Extensions = {
 	---Returns true if the extension is available (name is case insensitive)
 	---@param name string
 	---@return bool
-	GetTeamColor = function(name) end
+	GetTeamColor = function(name) end,
 }
