@@ -50,6 +50,9 @@
 ---True while one or more missiles are tracking this vehicle
 ---@field isTrackedByMissile bool
 ---**Const**
+---Returns true if AIType is set to transport
+---@field isTransportVehicle bool
+---**Const**
 ---Returns true if vehicle is marked as a Turret.
 ---@field isTurret bool
 ---@field maxHealth float

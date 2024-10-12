@@ -14,4 +14,6 @@
 Helicopter = {
 	---@param info DamageInfo
 	StartBurning = function(info) end,
+	---@return bool
+	IsAirborne = function() end
 }
