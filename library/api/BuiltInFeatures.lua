@@ -1,0 +1,21 @@
+---@meta Ravenscript
+
+---*Ravenfield Type*  **static**
+---
+---Use these values to Enable/Disable built in game features
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/BuiltInFeatures.html)
+---@class BuiltInFeatures
+---**Const**
+---Controls actors dropping blood drop particles on damage
+---@field actorBloodDrops bool
+---**Const**
+---Controls actor damage particle effect emission
+---@field actorHitEffect bool
+---**Const**
+---Visibility of blood decals
+---@field bloodDecals bool
+---**Const**
+---Visibility of impact decals
+---@field impactDecals bool
+BuiltInFeatures = {}
