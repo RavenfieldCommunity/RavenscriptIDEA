@@ -21,5 +21,6 @@
 ---@field useSpring bool
 MountedStabilizedTurret = {
 	---@param position Vector3
+	---@return bool
 	CanAimAt = function(position) end,
 }

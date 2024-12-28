@@ -32,6 +32,8 @@
 ---**static**
 ---@field fogEndDistance float
 ---**static**
+---@field fogMode FogMode
+---**static**
 ---@field fogStartDistance float
 ---**static**
 ---@field haloStrength float

@@ -172,6 +172,13 @@ Weapon = {
 	RemoveSubWeapon = function(subWeaponIndex) end,
 	---@param prefab GameObject
 	SetProjectilePrefab = function(prefab) end,
+	---Returns the weapon’s projectile prefab
+	---@return GameObject
+	GetProjectilePrefab = function () end,
+    ---Makes the weapon invisible
+	SetRenderersInvisible = function () end,
+	---Makes the weapon visible
+	SetRenderersVisible = function () end,
 	---Shoots this weapon.If force is true, ignores the CanFire() check. Returns true if shot was fired.
 	---@param force bool
 	---@return bool

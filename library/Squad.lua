@@ -5,6 +5,8 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Squad.html)
 ---@class Squad: Base
 ---@field attackTarget Actor
+---When set to true while in transport vehicle, will automatically drop passengers when close to attack point destination.
+---@field autoDropTransportedPassengers bool
 ---**Const**
 ---@field hasLanded bool
 ---**Const**
@@ -19,6 +21,12 @@
 ---@field order Order
 ---**Const**
 ---@field squadVehicle Vehicle
+---**Const**
+---
+---Invoked whenever the squad leader wants to go to the order objective.
+---
+---Callback: void callback()
+---@field onIssueOrderMovement ScriptEvent
 Squad = {
 	---@param newMember Actor
 	---Assign a new member to this squad.
@@ -28,6 +36,9 @@ Squad = {
 	AssignOrder = function(order) end,
 	---Cancels a landing.
 	CancelLanding = function() end,
+	---Drops all transported passengers Any passengers on mounted weapons will stay in the vehicle. Returns the dropped passengers.
+	---@return AiActorController[]
+	DropTransportedPassengers = function () end,
 	---@param position Vector3
 	---@overload fun(position:Vector3)
 	---@overload fun(position:Vector3, onLandFunctionName:string)

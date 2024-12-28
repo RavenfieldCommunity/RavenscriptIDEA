@@ -73,6 +73,18 @@
 ---@field team int
 ---**Const**
 ---@field transform Transform
+---@---**Const**
+---
+--- Invoked whenever a squad drops their claim over this vehicle
+---
+---Callback: void callback()
+---@field onClaimDropped ScriptEvent
+---@---**Const**
+---
+--- Invoked whenever a squad claims this vehicle
+---
+---Callback: void callback()
+---@field onClaimedBySquad ScriptEvent
 Vehicle = {
 	---@param source Actor
 	---@param amount float

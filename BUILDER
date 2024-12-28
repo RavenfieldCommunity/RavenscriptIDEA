@@ -1,0 +1,33 @@
+Event:
+```lua
+---**Const**
+---
+---Callback: void callback()
+---@field   ScriptEvent
+
+---**Const**
+---
+--- 
+---
+---Callback: void callback()
+---@field   ScriptEvent
+```
+
+Enum:
+```lua
+---@meta Ravenscript
+
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/.html)
+---@enum 
+ = {
+	 = 0,
+	 = 1,
+	 = 2,
+	 = 3,
+}
+```
+
+Overload
+```lua
+---@overload fun(?:):
+```
