@@ -53,6 +53,8 @@
 ---Controls if player can control infantry/vehicle movement
 ---@field movementInputEnabled bool
 ---**static Const**
+---@field nightvisionEnabled bool
+---**static Const**
 ---@field nighvisionEnabled bool
 ---**static**
 ---@field selectedLoadout LoadoutSet

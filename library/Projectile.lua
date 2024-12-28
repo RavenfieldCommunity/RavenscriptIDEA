@@ -37,6 +37,9 @@
 ---**Const**
 ---Returns true if the projectile is heading towards the player actor, otherwise false
 ---@field isTravellingTowardsPlayer bool
+---**Const**
+---True if the projectile is a WireGuidedMissileProjectile. If true, you can safely access fields via the WireGuidedMissileProjectile class API.
+---@field isWireGuidedMissileProjectile bool
 ---The actor who fired the projectile If the projectile kills a target, this is the actor that is awarded the kill
 ---@field killCredit Actor
 ---@field source Actor
