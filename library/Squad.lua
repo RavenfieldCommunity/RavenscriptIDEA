@@ -38,7 +38,7 @@ Squad = {
 	CancelLanding = function() end,
 	---Drops all transported passengers Any passengers on mounted weapons will stay in the vehicle. Returns the dropped passengers.
 	---@return AiActorController[]
-	DropTransportedPassengers = function () end,
+	DropTransportedPassengers = function() end,
 	---@param position Vector3
 	---@overload fun(position:Vector3)
 	---@overload fun(position:Vector3, onLandFunctionName:string)

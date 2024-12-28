@@ -8,7 +8,7 @@
 ---@class ColorScheme
 ColorScheme = {
 	---Returns a formatted string such as``<color=blue>innerString</color>`` for a specified team.
-	---@param innerString string 
+	---@param innerString string
 	---@param team Team
 	---@param variant ColorVariant
 	---@return string
@@ -23,7 +23,7 @@ ColorScheme = {
 	---@return Color
 	GetTeamColor = function(team) end,
 	---Returns a rich text color tag such as <color=blue> for a specified color.
-	---@overload fun(team:Team,variant:ColorVariant):string 
+	---@overload fun(team:Team,variant:ColorVariant):string
 	---@param color Color
 	---@return string
 	RichTextColorTag = function(color) end,

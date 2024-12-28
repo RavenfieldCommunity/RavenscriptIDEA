@@ -43,5 +43,5 @@ GameManager = {
 	---Sets the team name
 	---@param team Team
 	---@param name string
-	SetTeamName = function(team,name) end,
+	SetTeamName = function(team, name) end,
 }
