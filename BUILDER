@@ -1,3 +1,14 @@
+## PUBLISH流程
+
+先完成更改，然后使用stylua修正代码样式
+
+修改`library/core/main.lua`内的版本和更新日期
+
+commit并pull插件源repo
+
+然后打包zip并publish至steam工坊
+
+## 模板
 Event:
 ```lua
 ---**Const**
