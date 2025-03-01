@@ -180,7 +180,7 @@ Actor = {
 	---Equip a new weapon in the specified slot (0-4).
 	---@param entry WeaponEntry
 	---@param slotNumber int
-	---@param forceSwitchTo int
+	---@param forceSwitchTo bool
 	---@return Weapon
 	EquipNewWeaponEntry = function(entry, slotNumber, forceSwitchTo) end,
 	---@param target Actor
