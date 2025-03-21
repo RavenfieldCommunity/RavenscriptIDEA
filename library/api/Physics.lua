@@ -7,6 +7,8 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Physics.html)
 ---@class Physics
 ---**static**
+---
+---The gravity applied to physics objects.
 ---@field gravity Vector3
 Physics = {
 	---@param center Vector3

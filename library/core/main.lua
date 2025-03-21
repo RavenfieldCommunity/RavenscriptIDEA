@@ -1,12 +1,20 @@
 ---@meta Ravenscript
 
----🎉You're succeed enabling RSIDEA with Update 5 (Released on Dec, 2024). Newest version is:
+---🎉You're succeed enabling RSIDEA with Update 6 (Released on Mar, 2025). Latest release is:
 ---
----![](https://img.shields.io/steam/update-date/3160495493)
+---![Release](https://img.shields.io/github/v/release/RavenfieldCommunity/RavenscriptIDEA?style=flat-square&label=Latest%20release)
 ---
 ---To get update, please open [addon manager](command:lua.addon_manager.open) and wait for fetching update (if `Update` button is appeared, cilck it, too).
 ---
----[Official Website](https://ravenfieldcommunity.github.io/docs/)
+--- ------
+--- 
+--- ![Last commit](https://img.shields.io/github/last-commit/RavenfieldCommunity/RavenscriptIDEA?style=flat-square&label=Lastest%20commit%20time)
+--- 
+--- Licensed under GPLv3
+--- 
+--- Huge thanks for all the contributors! (≧ ▽ ≦)ゝ
+---
+--- Visit our [official website](https://ravenfieldcommunity.github.io/docs/)!
 ---
 --- ------
 ---

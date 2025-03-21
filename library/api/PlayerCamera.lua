@@ -7,21 +7,32 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/PlayerCamera.html)
 ---@class PlayerCamera
 ---**static Const**
+---
+---Get the player’s currently active camera.
 ---@field activeCamera Camera
 ---**static Const**
+---
+---Get the player’s first person camera. This is the camera that is active while the player is running around as infantry or in a vehicle without a special camera.
 ---@field fpCamera Camera
 ---**static**
+---
+---The first person camera’s local offset position. This is an offset from the default value, and is always Vector3.zero by default.
 ---@field fpCameraLocalPosition Vector3
 ---**static**
 ---
----True when the first person camera is active.
----
+---The first person camera’s local offset rotation. This is an offset from the default value, and is always Quaternion.identity by default.
 ---@field fpCameraLocalRotation Quaternion
 ---**static Const**
+---
+---True when the first person camera is active.
 ---@field isUsingFPCamera bool
 ---**static Const**
+---
+---True when an override camera is active. An override camera is typically used when the player enters a vehicle with a custom camera setup.
 ---@field isUsingOverrideCamera bool
 ---**static Const**
+---
+---Get the player’s third person camera. This is the camera that is active while the player is ragdolled. This is not the same as the third person camera while inside vehicles.
 ---@field tpCamera Camera
 PlayerCamera = {
 	---@param recoil Vector3
