@@ -13,7 +13,12 @@
 ---**static**
 ---@field fpCameraLocalPosition Vector3
 ---**static**
+---
+---True when the first person camera is active.
+---
 ---@field fpCameraLocalRotation Quaternion
+---**static Const**
+---@field isUsingFPCamera bool
 ---**static Const**
 ---@field isUsingOverrideCamera bool
 ---**static Const**
@@ -36,6 +41,13 @@ PlayerCamera = {
 	CancelOverrideCamera = function() end,
 	---Switch to first person camera.
 	FirstPersonCamera = function() end,
+	---@return Ray
+	---Returns a ray starting at the active camera in the camera forward direction
+	GetActiveCameraRay = function() end,
+	---@param camera Camera
+	---@return Ray
+	---Returns a ray starting at the camera in the camera forward direction
+	GetCameraRay = function(camera) end,
 	---@param kickEuler Vector3
 	---Kick the first person camera by an euler rotation.
 	KickCamera = function(kickEuler) end,

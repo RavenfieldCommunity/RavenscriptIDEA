@@ -57,6 +57,13 @@ Physics = {
 	Raycast = function(ray, range, target) end,
 	---@param ray Ray Test for collisions along this ray.
 	---@param range float Look no further than this [meters].
+	---@param blockedByGeometry bool
+	---@param blockedByVehicles bool
+	---@return Actor | nil "The hit Actor; otherwise nil if no actor was hit or the ray is blocked by other colliders."
+	---Casts a ray, returning the first hit actor.
+	RaycastActor = function(ray, range, blockedByGeometry, blockedByVehicles) end,
+	---@param ray Ray Test for collisions along this ray.
+	---@param range float Look no further than this [meters].
 	---@param target RaycastTarget Test for collisions with these things.
 	---@return RaycastHit | nil "A RaycastHit if a collision occurs along the ray; otherwise nil."
 	RaycastAll = function(ray, range, target) end,
