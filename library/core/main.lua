@@ -7,11 +7,11 @@
 ---To get update, please open [addon manager](command:lua.addon_manager.open) and wait for fetching update (if `Update` button is appeared, cilck it, too).
 ---
 --- ------
---- 
+---
 --- ![Last commit](https://img.shields.io/github/last-commit/RavenfieldCommunity/RavenscriptIDEA?style=flat-square&label=Lastest%20commit%20time)
---- 
+---
 --- Licensed under GPLv3
---- 
+---
 --- Huge thanks for all the contributors! (≧ ▽ ≦)ゝ
 ---
 --- Visit our [official website](https://ravenfieldcommunity.github.io/docs/)!
