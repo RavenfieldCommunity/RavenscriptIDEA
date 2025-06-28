@@ -1,7 +1,5 @@
 ---@meta Ravenscript
 
----AudioSource的Output的枚举类
----
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AudioMixer.html)
 ---@enum AudioMixer
 AudioMixer = {

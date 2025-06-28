@@ -7,12 +7,15 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Minimap.html)
 ---@class Minimap
 ---**static Const**
+---
 ---Texture of rendered actor blips excluding player squad. For performance reasons, this texture is not updated every frame.
 ---@field actorBlipTexture Texture
 ---**static Const**
+---
 ---The minimap camera of the current level.
 ---@field camera Camera
 ---**static Const**
+---
 ---Texture of rendered player squad actor blips. Updated every frame.
 ---@field playerSquadBlipTexture Texture
 ---**static Const**

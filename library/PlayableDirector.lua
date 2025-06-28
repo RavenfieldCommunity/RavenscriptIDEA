@@ -12,12 +12,15 @@
 ---@field playOnAwake bool
 ---@field time double
 ---**Const**
+---
 ---Callback: callback()
 ---@field paused ScriptEvent
 ---**Const**
+---
 ---Callback: callback()
 ---@field played ScriptEvent
 ---**Const**
+---
 ---Callback: callback()
 ---@field stopped ScriptEvent
 PlayableDirector = {

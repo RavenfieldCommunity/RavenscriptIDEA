@@ -12,6 +12,6 @@ ScriptEvent = {
 	AddListener = function(script, methodName, listenerData) end,
 	---@param script DynValue
 	---@param methodName string
-	---Removes script.methodName from the list of event handlers.
+	---Removes `script.methodName` from the list of event handlers.
 	RemoveListener = function(script, methodName) end,
 }

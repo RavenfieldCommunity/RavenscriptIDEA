@@ -25,7 +25,7 @@
 ---
 ---Invoked whenever the squad leader wants to go to the order objective.
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onIssueOrderMovement ScriptEvent
 Squad = {
 	---@param newMember Actor
@@ -43,7 +43,7 @@ Squad = {
 	---@overload fun(position:Vector3)
 	---@overload fun(position:Vector3, onLandFunctionName:string)
 	---@overload fun(position:Vector3, onLandFunctionName:string, eventData:DynValue)
-	---Lands at position and calls function when landing completesllback f. Caunction signature: OnLand(squad, eventData)
+	---Lands at position and calls function when landing completesllback f. Caunction signature: `OnLand(squad, eventData)`
 	LandHelicopterAtPosition = function(position, onLandFunctionName, eventData) end,
 	---@param member Actor
 	---Removes a member from this squad.

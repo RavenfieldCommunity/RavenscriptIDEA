@@ -2,39 +2,47 @@
 
 ---*Ravenfield Type*
 ---
----[RS Docs](http://ravenfieldgame.com/ravenscript/api/Weapon.html
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Weapon.html)
 ---@class Weapon: Base
 ---**Const**
 ---@field activeSightModeIndex int
 ---**Const**
+---
 ---Get the currently active Sub Weapon from the alternativeWeapons list.
 ---@field activeSubWeapon Weapon
 ---**Const**
+---
 ---Get the currently active Sub Weapon index.
 ---@field activeSubWeaponIndex int
 ---The Field Of View (zoom level) applied to the player when aiming this weapon
 ---@field aimFov float
+---@field aimSensitivityMultiplier float
 ---**Const**
 ---@field alternativeWeapons Weapon[]
 ---@field ammo int
 ---**Const**
+---
 ---Get the weapon animator. Please note that weapons carried by the AI never have animators. Only player carried weapons and MountedWeapons can have animators.
 ---@field animator Animator
 ---If true, each shot will heat up the weapon. If the heat value reaches 1 the gun overheats, and cannot be fired again until it cools down.
 ---@field applyHeat bool
 ---@field baseSpread float
 ---**Const**
+---
 ---Returns true if the weapon can be fired. Checks ammo, cooldown, overheat, lock, target tracker and misc flags
 ---@field canFire bool
 ---@field chargeTime float
 ---@field cooldown float
 ---**Const**
+---
 ---The muzzle transform that the next projectile will fire from.
 ---@field currentMuzzleTransform Transform
 ---**Const**
+---
 ---The current spread magnitude of a weapon. The spread magnitude is the radius of a sphere 1 meter in front of the muzzle. The projectile may fire towards a random point inside that sphere.
 ---@field currentSpreadMagnitude float
 ---**Const**
+---
 ---The current maximum spread of a weapon in radians.
 ---@field currentSpreadMaxAngleRadians float
 ---Difficulty of hitting Air target with this weapon.

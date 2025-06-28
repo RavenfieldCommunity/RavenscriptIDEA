@@ -5,9 +5,11 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Vehicle.html)
 ---@class Vehicle
 ---**Const**
+---
 ---The radius of the vehicle’s specified avoidance size
 ---@field avoidanceRadius float
 ---**Const**
+---
 ---Returns true if there is a line of sight between the vehicle’s lock on point and the player camera
 ---@field canSeePlayer bool
 ---**Const**
@@ -22,17 +24,21 @@
 ---@field hasDriver bool
 ---@field health float
 ---**Const**
+---
 ---Returns true if this vehicle is an Airplane. If true, you can safely access fields via the Airplane class API.
 ---@field isAirplane bool
 ---**Const**
+---
 ---True while one or more target tracking weapons are locking onto this vehicle
 ---@field isBeingLocked bool
 ---**Const**
+---
 ---Returns true if this vehicle is a Boat. If true, you can safely access fields via the Boat class API.
 ---@field isBoat bool
 ---**Const**
 ---@field isBurning bool
 ---**Const**
+---
 ---Returns true if this vehicle is a Car. If true, you can safely access fields via the Car class API.
 ---@field isCar bool
 ---**Const**
@@ -42,17 +48,21 @@
 ---**Const**
 ---@field isFull bool
 ---**Const**
+---
 ---Returns true if this vehicle is a Helicopter. If true, you can safely access fields via the Helicopter class API.
 ---@field isHelicopter bool
 ---**Const**
 ---@field isInWater bool
 ---**Const**
+---
 ---True while one or more missiles are tracking this vehicle
 ---@field isTrackedByMissile bool
 ---**Const**
+---
 ---Returns true if AIType is set to transport
 ---@field isTransportVehicle bool
 ---**Const**
+---
 ---Returns true if vehicle is marked as a Turret.
 ---@field isTurret bool
 ---@field maxHealth float
@@ -60,6 +70,8 @@
 ---@field minimapBlip Texture
 ---**Const**
 ---@field name string
+---**Const**
+---@field ownerTeam Team
 ---**Const**
 ---@field playerDistance float
 ---**Const**
@@ -73,17 +85,17 @@
 ---@field team int
 ---**Const**
 ---@field transform Transform
----@---**Const**
+---**Const**
 ---
 --- Invoked whenever a squad drops their claim over this vehicle
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onClaimDropped ScriptEvent
 ---@---**Const**
 ---
 --- Invoked whenever a squad claims this vehicle
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onClaimedBySquad ScriptEvent
 Vehicle = {
 	---@param source Actor

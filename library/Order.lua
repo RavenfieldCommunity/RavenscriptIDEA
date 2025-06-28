@@ -9,15 +9,19 @@
 ---**Const**
 ---@field hasOverrideTargetPosition bool
 ---**Const**
+---
 ---Returns true if this order was created by the player via the tactics view.
 ---@field isIssuedByPlayer bool
 ---**Const**
+---
 ---The current priority of the order, modified by any squads it is currently assigned to.
 ---@field priority int
 ---**Const**
+---
 ---The spawn point this order originated from.
 ---@field sourcePoint SpawnPoint
 ---**Const**
+---
 ---The spawn point this order targets.
 ---@field targetPoint SpawnPoint
 ---**Const**

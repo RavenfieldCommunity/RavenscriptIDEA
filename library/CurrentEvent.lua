@@ -6,9 +6,11 @@
 ---**static**
 ---@class CurrentEvent: Base
 ---**Const**
+---
 ---Returns true if the current event has been consumed.
 ---@field isConsumed bool
 ---**Const**
+---
 ---Returns the listener data assigned to the current event listener.
 ---@field listenerData DynValue
 CurrentEvent = {

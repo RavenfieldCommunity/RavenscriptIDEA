@@ -14,13 +14,13 @@
 ---
 ---Invoked when the destructible dies.
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onDeath ScriptEvent
 ---**Const**
 ---
 ---Invoked when the destructible takes damage.
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onTakeDamage ScriptEvent
 ---**Const**
 ---@field transform Transform

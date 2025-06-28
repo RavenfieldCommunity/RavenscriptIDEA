@@ -10,31 +10,40 @@
 ---@field canJoinPlayerSquad bool
 ---@field canSprint bool
 ---**Const**
+---
 ---The target this AI is currently attacking
 ---@field currentAttackTarget Actor
 ---**Const**
+---
 ---The current waypoint.
 ---@field currentWaypoint Vector3
 ---**Const**
+---
 ---@field gameObject GameObject
 ---**Const**
+---
 ---Returns true if the AI is traversing a path.
 ---@field hasPath bool
 ---**Const**
+---
 ---Returns true if the AI has a target vehicle to enter, or that they are already seated in.
 ---@field hasTargetVehicle bool
 ---Ignore FOV Check when querying sight. If set to true, this AI is able to see enemies all around, even behind.
 ---@field ignoreFovCheck bool
 ---**Const**
+---
 ---True if the built in AI movement is disabled.
 ---@field isDefaultMovementOverridden bool
 ---**Const**
+---
 ---Returns true if the AI has a target vehicle, and is currently attempting to enter it.
 ---@field isEnteringVehicle bool
 ---**Const**
+---
 ---The destination point of the last Goto() order.
 ---@field lastGotoPoint Vector3
 ---**Const**
+---
 ---The last reached path waypoint.
 ---@field lastWaypoint Vector3
 ---The maximum range in meters at which the AI will attempt to charge an enemy. Default is 30.
@@ -43,6 +52,7 @@
 ---The default altitude the AI will try to maintain in an Aircraft. This value is randomized every time a bot enters or exits an aircraft.
 ---@field targetFlightAltitude float
 ---**Const**
+---
 ---Returns the target vehicle the AI is entering or is already seated in.
 ---@field targetVehicle Vehicle
 ---**Const**

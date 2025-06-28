@@ -2,8 +2,6 @@
 
 ---*Ravenfield Type*
 ---
----玩家和Bot的基础类
----
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Actor.html)
 ---@class Actor: Base
 ---**Const**

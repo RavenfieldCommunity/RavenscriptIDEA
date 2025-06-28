@@ -27,6 +27,7 @@
 ---@field groundSteeringDrag float
 ---@field inReverseGear bool
 ---**Const**
+---
 ---Returns true if this vehicle is an Airplane. If true, you can safely access fields via the Airplane class API.
 ---@field isAmphibious bool
 ---@field reverseAcceleration float

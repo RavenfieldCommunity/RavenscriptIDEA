@@ -49,23 +49,23 @@
 ---@field wasCanceled bool
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerClick ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerDown ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerEnter ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerExit ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerUp ScriptEvent
 ---Callback: callback(string value?)
 ---@field onValueChanged ScriptEvent

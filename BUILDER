@@ -13,7 +13,7 @@ Event:
 ```lua
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field   ScriptEvent
 
 ---**Const**

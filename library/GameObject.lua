@@ -4,6 +4,9 @@
 ---
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/GameObject.html)
 ---@class GameObject: Component
+---@overload fun(name:string):GameObject
+---@overload fun(name:string, components:any):GameObject
+---@operator call:GameObject
 ---**Const**
 ---@field activeInHierarchy bool
 ---**Const**
@@ -85,7 +88,3 @@ GameObject = {
 	---@return GameObject
 	Instantiate = function(prefab, position, rotation, parent) end,
 }
-
----@param name? string
----@param components? any
-GameObject = function(name, components) end

@@ -33,6 +33,7 @@
 ---**static Const**
 ---@field mouseScrollDelta Vector2
 ---**static Const**
+---
 ---The current mouse sensitivity in degrees per mouse unit. The mouse sensitivity changes depending on current weapon aim zoom level.
 ---@field mouseSensitivity float
 ---**static**

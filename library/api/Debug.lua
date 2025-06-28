@@ -7,6 +7,7 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Debug.html)
 ---@class Debug
 ---**Const**
+---
 ---Returns true if the game has been launched from the Unity Editor via the -testcontentmod parameter.
 ---@field isTestMode bool
 Debug = {

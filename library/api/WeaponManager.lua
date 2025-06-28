@@ -5,6 +5,7 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/WeaponManager.html)
 ---@class WeaponManager
 ---**Const**
+---
 ---All weapons loaded into the game.
 ---@field allWeapons WeaponEntry[]
 WeaponManager = {

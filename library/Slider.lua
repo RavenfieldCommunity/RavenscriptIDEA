@@ -17,23 +17,23 @@
 ---@field normalizedValue float
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerClick ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerDown ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerEnter ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerExit ScriptEvent
 ---**Const**
 ---
----Callback: void callback()
+---Callback: callback()
 ---@field onPointerUp ScriptEvent
 ---**Const**
 ---@field transform Transform
