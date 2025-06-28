@@ -1,5 +1,10 @@
 ---@meta Ravenscript.RavenM
 
+---🎉You're succeed enabling RSIDEA with RavenM
+---
+---Remember to check updates manually!
+---
+---Available classes: `Lobby` `GameObjectNetConfig` `CommandManager` `GameEventsOnline` `GameObjectM` `OnlinePlayer`
 ---@class Lobby
 ---**Const**
 ---@field members string[]
