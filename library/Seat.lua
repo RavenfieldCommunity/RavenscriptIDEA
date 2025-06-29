@@ -17,7 +17,6 @@
 ---@field hasWeapons bool
 ---**Const**
 ---@field isDriverSeat bool
----**Const**
 ---@field isEnclosed bool
 ---**Const**
 ---@field isOccupied bool
