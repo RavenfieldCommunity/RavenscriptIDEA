@@ -6,7 +6,7 @@
 ---@class MeleeWeapon: Weapon
 ---@overload fun():MeleeWeapon
 ---@operator call:MeleeWeapon
----@field balanceDamage float 
+---@field balanceDamage float
 ---@field damage float
 ---@field force float
 ---@field hitSound AudioClip
@@ -21,6 +21,6 @@ MeleeWeapon = {
 	Closest = function(a, b) end,
 	---@return Transform
 	CurrentMuzzle = function() end,
-    ---@return bool
-	IsMeleeWeapon = function() end
+	---@return bool
+	IsMeleeWeapon = function() end,
 }

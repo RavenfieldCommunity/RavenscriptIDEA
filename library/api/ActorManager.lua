@@ -49,7 +49,7 @@ ActorManager = {
 	---@param team Team
 	---@return Actor
 	CreateAIActor = function(team) end,
-    ---Creates a generic explosion particle effect. The effect deals no damage, so you probably also want to call `ActorManager.Explode()` to deal damage
+	---Creates a generic explosion particle effect. The effect deals no damage, so you probably also want to call `ActorManager.Explode()` to deal damage
 	---@param position Vector3
 	---@param upDirection Vector3
 	---@param size float
@@ -108,7 +108,7 @@ ActorManager = {
 	---@param speedMultiplier float
 	---@param verticalLaunchSpeed float
 	---@param size float
-	SetBloodParticleParameters = function( lifetime,  speedMultiplier,  verticalLaunchSpeed,  size) end,
+	SetBloodParticleParameters = function(lifetime, speedMultiplier, verticalLaunchSpeed, size) end,
 	---Sets the team skin of all actors on the specified team. Team skins are game-managed, meaning that glow is automatically applied when the player enters night vision mode.
 	---@param team Team
 	---@param skin ActorSkin
