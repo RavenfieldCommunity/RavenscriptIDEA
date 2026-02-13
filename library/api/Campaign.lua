@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----*Ravenfield Type*  **static**	
+---*Ravenfield Type*  **static**
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Campaign.html)
 ---@class Campaign
 ---**Const**
@@ -8,9 +8,9 @@
 ---**Const**
 ---@field saveData SaveData
 ---**Const**
----@field userGameInfo GameInfo 
+---@field userGameInfo GameInfo
 ---**Const**
----@field userMapPool MapEntry[] 
+---@field userMapPool MapEntry[]
 Campaign = {
-	SaveProgress = function() end
+	SaveProgress = function() end,
 }

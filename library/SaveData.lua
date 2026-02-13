@@ -109,6 +109,5 @@ SaveData = {
 	StoreWeaponEntryArray = function(key, value) end,
 	---@param key string
 	---@param value VehicleInfo[]
-	StoreVehicleInfoArray = function(key, value) end
+	StoreVehicleInfoArray = function(key, value) end,
 }
-

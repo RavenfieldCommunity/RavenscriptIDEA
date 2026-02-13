@@ -15,5 +15,4 @@
 ---@field mapDecorator MapDecorator
 ---@field mapTerrain MapTerrain
 ---@field suggestedBots int
-MapMetaData = {
-}
+MapMetaData = {}

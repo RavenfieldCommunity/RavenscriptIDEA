@@ -9,55 +9,55 @@
 ---**Const**
 ---
 ---The ID used for conquest mode army count
----@field ID_CONQUEST_ARMIES_BLUE string 
+---@field ID_CONQUEST_ARMIES_BLUE string
 ---**Const**
 ---
 ---The ID used for conquest mode army count change
----@field ID_CONQUEST_ARMIES_BLUE_CHANGE string 
+---@field ID_CONQUEST_ARMIES_BLUE_CHANGE string
 ---**Const**
 ---
 ---The ID used for conquest mode army count
----@field ID_CONQUEST_ARMIES_RED string 
+---@field ID_CONQUEST_ARMIES_RED string
 ---**Const**
 ---
 ---The ID used for conquest mode army count change
----@field ID_CONQUEST_ARMIES_RED_CHANGE string 
+---@field ID_CONQUEST_ARMIES_RED_CHANGE string
 ---**Const**
 ---
 ---The ID used for game mode game length
----@field ID_GAME_LENGTH string 
+---@field ID_GAME_LENGTH string
 ---**Const**
 ---
 ---The ID used for game respawn time
----@field ID_RESPAWN_TIME string 
+---@field ID_RESPAWN_TIME string
 ---**Const**
 ---
 ---The ID used for game mode team actor count
----@field ID_TEAM_COUNT_BLUE string 
+---@field ID_TEAM_COUNT_BLUE string
 ---**Const**
 ---
 ---The ID used for game mode team actor count
----@field ID_TEAM_COUNT_RED string 
+---@field ID_TEAM_COUNT_RED string
 ---**Const**
----@field MAX_GAME_LENGTH int 
+---@field MAX_GAME_LENGTH int
 ConfigurationData = {
-	Clear = function () end,
+	Clear = function() end,
 	---@param id string
 	---@param text string
-	Deserialize = function (id, text) end,
+	Deserialize = function(id, text) end,
 	---@param id string
 	---@return bool
 	GetBool = function(id) end,
 	---@param id string
 	---@return float
 	GetFloat = function(id) end,
-    ---@param id string
+	---@param id string
 	---@return Dropdown
 	GetDropdown = function(id) end,
-    ---@param id string
+	---@param id string
 	---@return int
 	GetInt = function(id) end,
-    ---@param id string
+	---@param id string
 	---@return float
 	GetRange = function(id) end,
 	---@param id string
@@ -99,5 +99,4 @@ ConfigurationData = {
 	---@param id string
 	---@param value string
 	SetString = function(id, value) end,
-	
 }

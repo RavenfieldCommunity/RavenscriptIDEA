@@ -15,13 +15,13 @@ Mask = {
 	---@param baseMaterial Material
 	GetModifiedMaterial = function(baseMaterial) end,
 	---@return bool
-	IsActive = function () end,
+	IsActive = function() end,
 	---@return bool
-	IsDestroyed = function () end,
+	IsDestroyed = function() end,
 	---@param sp Vector2
 	---@param eventCamera Camera
 	---@return bool
-	IsRaycastLocationValid = function (sp, eventCamera) end,
+	IsRaycastLocationValid = function(sp, eventCamera) end,
 	---@return bool
-	MaskEnabled = function () end,
+	MaskEnabled = function() end,
 }

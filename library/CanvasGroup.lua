@@ -24,8 +24,8 @@ CanvasGroup = {
 	---@param eventCamera Camera
 	---@return bool
 	IsRaycastLocationValid = function(sp, eventCamera) end,
-    ---@param duration float
+	---@param duration float
 	FadeIn = function(duration) end,
 	---@param duration float
-	FadeOut = function(duration) end
+	FadeOut = function(duration) end,
 }

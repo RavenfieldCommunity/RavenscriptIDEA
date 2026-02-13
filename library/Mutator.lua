@@ -32,5 +32,5 @@ Mutator = {
 	---**static**
 	---@param name string
 	---@return Mutator
-	GetByName = function (name) end,
+	GetByName = function(name) end,
 }

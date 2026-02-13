@@ -12,21 +12,21 @@
 ---@field playerTeam Team
 GameModeParameters = {
 	---@return int
-	GetGameLength = function () end,
+	GetGameLength = function() end,
 	---@return float
 	GetRespawnTime = function() end,
 	---@param gameLength int
-	SetGameLength = function (gameLength) end,
+	SetGameLength = function(gameLength) end,
 	---@param mapEntry MapEntry
 	---@overload fun(mapEntry:MapEntry, minCount:int, maxCount:int)
-	SetRecommendedTeamCount = function (mapEntry) end,
+	SetRecommendedTeamCount = function(mapEntry) end,
 	---@param respawnTime float
-	SetRespawnTime = function (respawnTime) end,
+	SetRespawnTime = function(respawnTime) end,
 	---@param team Team
 	---@param count int
-	SetTeamCount = function (team, count) end,
+	SetTeamCount = function(team, count) end,
 	---**static**
 	---@param info GameModeInfo
 	---@return GameModeParameters
-	CreateForGameMode = function (info) end
+	CreateForGameMode = function(info) end,
 }

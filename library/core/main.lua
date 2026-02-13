@@ -1,6 +1,6 @@
 ---@meta Ravenscript
 
----🎉You're succeed enabling RSIDEA with Update 7 (Released on Jun, 2025). Latest release is:
+---🎉You're succeed enabling RSIDEA with Update 8 (Released on Feb, 2026). Latest release is:
 ---
 ---![Release](https://img.shields.io/github/v/release/RavenfieldCommunity/RavenscriptIDEA?style=flat-square&label=Latest%20release)
 ---

@@ -8,16 +8,15 @@
 ---**Const**
 ---@field name string
 ---**static Const**
----@field officialBattle GameModeInfo 
+---@field officialBattle GameModeInfo
 ---**static Const**
----@field officialDomination GameModeInfo 
+---@field officialDomination GameModeInfo
 ---**static Const**
----@field officialHaunted GameModeInfo 
+---@field officialHaunted GameModeInfo
 ---**static Const**
----@field officialPointMatch GameModeInfo 
+---@field officialPointMatch GameModeInfo
 ---**static Const**
----@field officialSkirmish GameModeInfo 
+---@field officialSkirmish GameModeInfo
 ---**static Const**
----@field officialSpecOps GameModeInfo 
-GameModeInfo = {
-}
+---@field officialSpecOps GameModeInfo
+GameModeInfo = {}

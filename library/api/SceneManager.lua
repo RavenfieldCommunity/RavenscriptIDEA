@@ -10,5 +10,5 @@ SceneManager = {
 	---@param mapEntry MapEntry
 	---@param info GameInfo
 	---@param parameters GameModeParameters
-	StartMatch = function (mapEntry, info, parameters) end
+	StartMatch = function(mapEntry, info, parameters) end,
 }

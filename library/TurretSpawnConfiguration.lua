@@ -8,6 +8,4 @@
 ---@operator call:TurretSpawnConfiguration
 ---@field tier RarityTier
 ---@field type TurretSpawnType
-TurretSpawnConfiguration={
-}
-
+TurretSpawnConfiguration = {}

@@ -8,6 +8,4 @@
 ---@operator call:VehicleSpawnConfiguration
 ---@field tier RarityTier
 ---@field type VehicleSpawnType
-VehicleSpawnConfiguration={
-}
-
+VehicleSpawnConfiguration = {}
