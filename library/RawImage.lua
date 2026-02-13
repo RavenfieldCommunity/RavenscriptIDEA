@@ -11,6 +11,7 @@
 ---@field defaultMaterial Material
 ---**Const**
 ---@field depth int
+---@field enabled bool
 ---**Const**
 ---@field gameObject GameObject
 ---@field isMaskingGraphic bool

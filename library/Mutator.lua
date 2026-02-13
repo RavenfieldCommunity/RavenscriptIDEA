@@ -5,6 +5,8 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Mutator.html)
 ---@class Mutator: Base
 ---**Const**
+---@field configuration ConfigurationData
+---**Const**
 ---@field description string
 ---**Const**
 ---@field name string
@@ -27,4 +29,8 @@ Mutator = {
 	---@param id string
 	---@return string
 	GetConfigurationString = function(id) end,
+	---**static**
+	---@param name string
+	---@return Mutator
+	GetByName = function (name) end,
 }

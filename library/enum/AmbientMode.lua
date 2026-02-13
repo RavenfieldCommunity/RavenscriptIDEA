@@ -2,7 +2,7 @@
 
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/AmbientMode.html)
 ---@enum AmbientMode
-AnimatorCullingMode = {
+AmbientMode = {
 	Skybox = 0,
 	Trilight = 1,
 	Flat = 2,

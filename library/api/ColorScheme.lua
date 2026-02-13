@@ -18,6 +18,10 @@ ColorScheme = {
 	---@param variant ColorVariant
 	---@return Color
 	GetInterfaceColor = function(team, variant) end,
+	---Returns a color of a specific rarity tier.
+	---@param rarity RarityTier
+	---@return Color
+	GetRarityColor = function(rarity) end,
 	---Returns the main color of a specific team.
 	---@param team Team
 	---@return Color

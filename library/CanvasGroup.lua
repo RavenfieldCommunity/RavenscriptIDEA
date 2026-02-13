@@ -4,8 +4,8 @@
 ---
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/CanvasGroup.html)
 ---@class CanvasGroup: Component
----@overload fun():Canvas
----@operator call:Canvas
+---@overload fun():CanvasGroup
+---@operator call:CanvasGroup
 ---@field alpha float
 ---@field blocksRaycasts bool
 ---@field enabled bool
@@ -24,4 +24,8 @@ CanvasGroup = {
 	---@param eventCamera Camera
 	---@return bool
 	IsRaycastLocationValid = function(sp, eventCamera) end,
+    ---@param duration float
+	FadeIn = function(duration) end,
+	---@param duration float
+	FadeOut = function(duration) end
 }

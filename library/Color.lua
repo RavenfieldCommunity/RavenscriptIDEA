@@ -60,7 +60,7 @@ Color = {
 	---@param H float
 	---@param S float
 	---@param V float
-	---@param hdr bool
+	---@param hdr? bool
 	---@return Color
 	HSVToRGB = function(H, S, V, hdr) end,
 	---**static**
@@ -76,9 +76,7 @@ Color = {
 	---@return Color
 	LerpUnclamped = function(a, b, t) end,
 	---**static**
-	---@param rgbColor Color
-	---@param H float
-	---@param S float
-	---@param V float
-	RGBToHSV = function(rgbColor, H, S, V) end,
+	---@param color Color
+	---@return Vector3
+	ToHSV = function(color) end,
 }

@@ -2,7 +2,7 @@
 
 ---*Unity Type*
 ---
----[RS Docs](http://ravenfieldgame.com/ravenscript/api/Material.html)
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/unity/Material.html)
 ---@class Material: Component
 ---@overload fun(source: Material):Material
 ---@operator call:Material

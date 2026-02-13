@@ -33,6 +33,7 @@
 ---@field canFire bool
 ---@field chargeTime float
 ---@field cooldown float
+---@field currentMuzzleIndex int
 ---**Const**
 ---
 ---The muzzle transform that the next projectile will fire from.

@@ -48,6 +48,9 @@ GameManager = {
 	---@param team Team
 	---@return string
 	GetTeamName = function(team) end,
+	---Loads a scene by name, include .rfl or .rfld extension to load custom maps
+	---@param name string
+	LoadSceneByName = function(name) end,
 	---Sets the team name
 	---@param team Team
 	---@param name string

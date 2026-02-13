@@ -86,6 +86,8 @@
 ---**Const**
 ---@field transform Transform
 ---**Const**
+---@field vehicleInfo VehicleInfo
+---**Const**
 ---
 --- Invoked whenever a squad drops their claim over this vehicle
 ---

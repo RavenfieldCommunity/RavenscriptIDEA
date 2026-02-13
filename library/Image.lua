@@ -12,6 +12,7 @@
 ---@field defaultMaterial Material
 ---**Const**
 ---@field depth int
+---@field enabled bool
 ---@field fillAmount float
 ---@field fillCenter bool
 ---@field fillClockwise bool

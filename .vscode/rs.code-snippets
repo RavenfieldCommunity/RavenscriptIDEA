@@ -27,7 +27,7 @@
 		"body": [
 			"---**Const**",
 			"---",
-			"---Callback: callback"
+			"---Callback: callback",
 			"---@field  ScriptEvent"
 		],
 		"description": "creat event"
@@ -80,5 +80,39 @@
 			"---@see http://ravenfieldgame.com/ravenscript/api/.html"
 		],
 		"description": "creat see"
+	},
+
+	"creat static": {
+		"prefix": "ct",
+		"body": [
+			"---**static**"
+		],
+		"description": "creat static"
+	},
+
+	"creat const": {
+		"prefix": "cn",
+		"body": [
+			"---**Const**"
+		],
+		"description": "creat const"
+	},
+
+	"creat ct": {
+		"prefix": "ci",
+		"body": [
+			"---**static Const**"
+		],
+		"description": "creat static const"
+	},
+
+	"creat cctor": {
+		"prefix": "cr",
+		"body": [
+			"---@overload fun():",
+			"---@operator call:"
+		],
+		"description": "creat cct"
 	}
+
 }

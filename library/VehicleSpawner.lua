@@ -33,6 +33,7 @@ VehicleSpawner = {
 	---@param position Vector3
 	---@param rotation Quaternion
 	---@return Vehicle
+	---@overload fun(team:Team, vehicleInfo:VehicleInfo, position:Vector3, rotation:Quaternion)
 	---Spawns a vehicle of the specified type
 	SpawnVehicle = function(team, type, position, rotation) end,
 }

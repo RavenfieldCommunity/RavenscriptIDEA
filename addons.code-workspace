@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"Lua.runtime.plugin": "plugin.lua",
-		"editor.wordWrap": "on"
+		"editor.wordWrap": "on",
+		"Lua.hint.enable": false
 	}
 }

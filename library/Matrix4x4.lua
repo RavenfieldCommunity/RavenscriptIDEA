@@ -2,7 +2,7 @@
 
 ---*Unity Type*
 ---
----[RS Docs](http://ravenfieldgame.com/ravenscript/api/Matrix4x4.html)
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/unity/Matrix4x4.html)
 ---@class Matrix4x4: Component
 ---@overload fun( column0?:Vector4,  column1?:Vector4,  column2?:Vector4,  column3?:Vector4):Matrix4x4
 ---@operator call:Matrix4x4

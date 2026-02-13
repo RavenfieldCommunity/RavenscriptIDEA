@@ -9,6 +9,8 @@
 ---**Const**
 ---@field isUsableByAi bool
 ---**Const**
+---@field mainWeaponRole WeaponRole
+---**Const**
 ---@field name string
 ---**Const**
 ---@field prefab GameObject
@@ -23,6 +25,9 @@
 ---**Const**
 ---@field uiSprite Sprite
 WeaponEntry = {
+	---Returns true if the weapon entry has the tag (case insensitive)
+	---@param tag string
+	HasTag = function(tag) end,
 	---@param position Vector3
 	---@param rotation Quaternion
 	---@return GameObject

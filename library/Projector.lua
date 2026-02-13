@@ -1,0 +1,23 @@
+---@meta Ravenscript
+
+---*Unity Type*
+---
+---[RS Docs](http://ravenfieldgame.com/ravenscript/api/Projector.html)
+---@class Projector: Component
+---@overload fun():Projector
+---@operator call:Projector
+---@field aspectRatio float
+---@field enabled bool
+---@field farClipPlane float
+---@field fieldOfView float
+---**Const**
+---@field gameObject GameObject
+---@field ignoreLayers int
+---@field material Material
+---@field name string
+---@field nearClipPlane float
+---@field orthographic bool
+---@field orthographicSize float
+---@field tag string
+---@field transform Transform
+Projector = {}

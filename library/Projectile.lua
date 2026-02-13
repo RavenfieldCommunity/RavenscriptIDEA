@@ -23,6 +23,10 @@
 ---@field impactForce float
 ---**Const**
 ---
+---Returns true until the projectile hits something or expires
+---@field isActive bool
+---**Const**
+---
 ---True if the projectile is an ExplodingProjectile. If true, you can safely access fields via the ExplodingProjectile class API.
 ---@field isExplodingProjectile bool
 ---**Const**
