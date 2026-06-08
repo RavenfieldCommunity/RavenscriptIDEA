@@ -1,10 +1,10 @@
 ---@meta Ravenscript
 
----🎉You're succeed enabling RSIDEA with Update 8 (Released on Feb, 2026). Latest release is:
+---🎉You're succeed in enabling RSIDEA with Update 9 (Released on Jun, 2026). Latest release is:
 ---
 ---![Release](https://img.shields.io/github/v/release/RavenfieldCommunity/RavenscriptIDEA?style=flat-square&label=Latest%20release)
 ---
----To get update, please open [addon manager](command:lua.addon_manager.open) and wait for fetching update (if `Update` button is appeared, cilck it, too).
+---To get update, please open [addon manager](command:lua.addon_manager.open) and wait for fetching update (if `Update` button is appeared, cilck it too).
 ---
 --- ------
 ---
@@ -19,6 +19,10 @@
 --- ------
 ---
 ---Please define variables in function! (except readonly variables)
+---
+--- ------
+---
+---And `self.var` and `self:Func()` pointers are supported, check [docs](https://ravenfieldcommunity.github.io/docs/en/Projects/rsidea.html#register_script)!
 ---
 --- ------
 ---
