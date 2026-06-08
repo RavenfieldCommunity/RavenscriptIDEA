@@ -11,12 +11,16 @@
 ---Gets the build number. Running this on EA Build 20 returns 20.
 ---@field buildNumber int
 ---**Const**
+---@field currentGameInfo GameInfo
+---**Const**
 ---
 ---@field currentGameModeName string
 ---**Const**
 ---
 ---The current game difficulty selected via the options menu.
 ---@field gameDifficulty GameDifficulty
+---**Const**
+---@field gameModeParameters GameModeParameters
 ---**Const**
 ---
 ---Returns true if the game build is tagged as beta.
@@ -25,6 +29,10 @@
 ---
 ---Returns true if the game is considered running on a legitimate copy of the game. Please note that this value can never be considered 100% accurate and may yield false positives and false negatives.
 ---@field isLegitimate bool
+---**Const**
+---
+---Returns true if the current match is set at night.
+---@field isNightMode bool
 ---**Const**
 ---@field isPaused bool
 ---**Const**

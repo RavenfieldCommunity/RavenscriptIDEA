@@ -15,6 +15,8 @@
 ---**static**
 ---@field playerCanSelectSpawnPoint bool
 SpawnUi = {
+	---Closes the UI.
+	Close = function() end,
 	---@return SpawnPoint
 	---Returns the player selected spawn point.
 	GetSelectedSpawnPoint = function() end,
