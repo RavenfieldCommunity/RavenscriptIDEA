@@ -9,5 +9,5 @@ TextureProcessor = {
 	---@param sourceTexture Texture
 	---@param destinationRenderTexture Texture
 	---@param nPasses int
-	GaussianBlur = function(sourceTexture,  destinationRenderTexture,  nPasses) end,
+	GaussianBlur = function(sourceTexture, destinationRenderTexture, nPasses) end,
 }

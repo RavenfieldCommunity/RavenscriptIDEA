@@ -42,5 +42,5 @@ VehicleSpawner = {
 	---@param rotation Quaternion
 	---@return GameObject
 	---Spawns a vehicle imposterA vehicle imposter only contains the renderers of the vehicle, without functionality and simulation components.
-	SpawnVehicleImposter = function (team, type, position, rotation) end,
+	SpawnVehicleImposter = function(team, type, position, rotation) end,
 }

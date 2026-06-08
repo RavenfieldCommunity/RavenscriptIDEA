@@ -55,5 +55,5 @@ Sprite = {
 	---@param rect Rect
 	---@param pivot Vector2
 	---@return Sprite
-	Create = function( texture,  rect,  pivot) end,
+	Create = function(texture, rect, pivot) end,
 }

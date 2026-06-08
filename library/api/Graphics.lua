@@ -10,5 +10,5 @@ Graphics = {
 	---Copies pixel data from one texture to another.
 	---@param src Texture
 	---@param dst Texture
-	CopyTexture = function(src,  dst) end
+	CopyTexture = function(src, dst) end,
 }

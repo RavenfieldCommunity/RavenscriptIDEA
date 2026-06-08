@@ -18,7 +18,7 @@ TriggerScriptedSignal = {
 	Send = function(entryName, context) end,
 	---**static**
 	---@param name string
-	IsInternalSignal = function (name) end,
+	IsInternalSignal = function(name) end,
 	---@param entryName string
 	---@param context? SignalContext
 	SendGlobalNamedSignal = function(entryName, context) end,
@@ -26,5 +26,5 @@ TriggerScriptedSignal = {
 	---@param name string
 	---@param target GameObject
 	---@param context? SignalContext
-	SendNamedSignal = function (name,target,context) end,
+	SendNamedSignal = function(name, target, context) end,
 }

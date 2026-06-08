@@ -9,9 +9,9 @@
 ---@field position Vector3
 ---@field tangent Vector3
 BezierNode = {
-    ---**static**
-    ---@return BezierNode
-    ---@param position Vector3
-    ---@param tangent Vector3
-    Create = function (position, tangent) end,
+	---**static**
+	---@return BezierNode
+	---@param position Vector3
+	---@param tangent Vector3
+	Create = function(position, tangent) end,
 }

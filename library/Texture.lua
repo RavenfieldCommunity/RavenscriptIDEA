@@ -61,5 +61,5 @@ Texture = {
 	---@param width int
 	---@param height int
 	---@return Texture
-	CreateTexture2D = function (width, height) end,
+	CreateTexture2D = function(width, height) end,
 }
