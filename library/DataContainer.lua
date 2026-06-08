@@ -34,6 +34,12 @@ DataContainer = {
 	---@return AudioClip[]
 	GetAudioClipArray = function(id) end,
 	---@param id string
+	---@return BezierPath
+	GetBezierPath = function(id) end,
+	---@param id string
+	---@return BezierPath[]
+	GetBezierPathArray = function(id) end,
+	---@param id string
 	---@return bool
 	GetBool = function(id) end,
 	---@param id string
@@ -136,6 +142,9 @@ DataContainer = {
 	HasAudioClip = function(id) end,
 	---@param id string
 	---@return bool
+	HasBezierPath = function(id) end,
+	---@param id string
+	---@return bool
 	HasBool = function(id) end,
 	---@param id string
 	---@return bool
@@ -167,6 +176,9 @@ DataContainer = {
 	---@param id string
 	---@return bool
 	HasString = function(id) end,
+	---@param id string
+	---@return bool
+	HasTextAsset = function(id) end,
 	---@param id string
 	---@return bool
 	HasTexture = function(id) end,

@@ -171,6 +171,12 @@ Actor = {
 	---Force enters the target seat, kicking out any previous occupant. If another seat is available in the vehicle, the previous occupant will swap to that seat. If not, they will exit the vehicle.
 	---@param seat Seat
 	EnterSeatForced = function(seat) end,
+	---Force enters the target seat, kicking out any previous occupant, ignoring vehicle lock flag. If another seat is available in the vehicle, the previous occupant will swap to that seat. If not, they will exit the vehicle.
+	---@param seat Seat
+	EnterSeatForcedIgnoreLock = function(seat) end,
+	---Enters the target seat if it’s not already occupied, ignoring vehicle lock flag. If the target seat is already occupied, the actor will not enter the seat, and this function returns false. If the actor could successfully enter the seat, the function returns true.
+	---@param seat Seat
+	EnterSeatIgnoreLock = function(seat) end,
 	---Makes the actor enter the vehicle. If the actor is a squad leader, this automatically makes the squad claim the vehicle.
 	---@param vehicle Vehicle
 	---@return bool

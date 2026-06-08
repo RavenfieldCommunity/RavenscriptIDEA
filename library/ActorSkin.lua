@@ -10,6 +10,12 @@
 ---@field characterSkin MeshSkin
 ---@field kickLegSkin MeshSkin
 ---@field name string
+---**Const**
+---@field BLOCK_MEN_SKIN_NAME string
+---**Const**
+---@field DEFAULT_SKIN_NAME string
+---**Const**
+---@field TALON_SKIN_NAME string
 ActorSkin = {
 	---@return ActorSkin
 	Clone = function() end,

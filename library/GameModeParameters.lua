@@ -29,4 +29,7 @@ GameModeParameters = {
 	---@param info GameModeInfo
 	---@return GameModeParameters
 	CreateForGameMode = function(info) end,
+	---@param team Team
+	---@return int
+	GetCampaignArmies = function(team) end,
 }

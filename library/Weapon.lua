@@ -112,11 +112,15 @@
 ---The actor that gets damage/kill credits from this weapon. Automatically set to whoever equips this weapon, but can be overridden if required
 ---@field killCredit Actor
 ---@field maxAmmo int
+---@field maxAmmoPerReload int
 ---@field maxSpareAmmo int
 ---**Const**
 ---@field muzzleTransforms Transform[]
 ---The number of projectiles spawned when the weapons is fired.
 ---@field projectilesPerShot int
+---@field rattleDuration float
+---@field rattleFrequency float
+---@field rattleMagnitude float
 ---@field recoilBaseKickback float
 ---@field recoilKickbackProneMultiplier float
 ---@field recoilRandomKickback float
@@ -143,6 +147,7 @@
 ---@field unholsterTime float
 ---When true, the weapon must charge before firing. Requires the fire button to be held for chargeTime seconds before firing.
 ---@field useChargeTime bool
+---@field useMaxAmmoPerReload bool
 ---**Const**
 ---@field user Actor
 ---**Const**

@@ -48,4 +48,12 @@ Sprite = {
 	OverrideGeometry = function(vertices, triangles) end,
 	---@param physicsShapes Vector2[][]
 	OverridePhysicsShape = function(physicsShapes) end,
+	---**static**
+	---
+	---Create a new Sprite object.
+	---@param texture Texture
+	---@param rect Rect
+	---@param pivot Vector2
+	---@return Sprite
+	Create = function( texture,  rect,  pivot) end,
 }

@@ -15,6 +15,7 @@
 SoundBank = {
 	---@return bool
 	IsPlaying = function() end,
+	PlayNext = function() end,
 	PlayRandom = function() end,
 	---@param index int
 	PlaySoundBank = function(index) end,

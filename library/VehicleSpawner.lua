@@ -36,4 +36,11 @@ VehicleSpawner = {
 	---@overload fun(team:Team, vehicleInfo:VehicleInfo, position:Vector3, rotation:Quaternion)
 	---Spawns a vehicle of the specified type
 	SpawnVehicle = function(team, type, position, rotation) end,
+	---@param team Team
+	---@param type VehicleSpawnType
+	---@param position Vector3
+	---@param rotation Quaternion
+	---@return GameObject
+	---Spawns a vehicle imposterA vehicle imposter only contains the renderers of the vehicle, without functionality and simulation components.
+	SpawnVehicleImposter = function (team, type, position, rotation) end,
 }

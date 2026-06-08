@@ -11,6 +11,7 @@
 ---@field force float
 ---@field hitSound AudioClip
 ---@field radius float
+---@field randomHitSounds AudioClip[]
 ---@field range float
 ---@field swingTime float
 ---@field onSpawnProjectiles ScriptEvent

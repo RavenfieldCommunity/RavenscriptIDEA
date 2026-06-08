@@ -55,4 +55,11 @@ Texture = {
 	---@param globalMax int
 	SetGlobalAnisotropicFilteringLimits = function(forcedMin, globalMax) end,
 	SetStreamingTextureMaterialDebugProperties = function() end,
+	---**static**
+	---
+	---Create a new Texture2D.
+	---@param width int
+	---@param height int
+	---@return Texture
+	CreateTexture2D = function (width, height) end,
 }

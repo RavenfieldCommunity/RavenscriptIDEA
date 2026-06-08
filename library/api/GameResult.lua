@@ -4,6 +4,10 @@
 ---[RS Docs](http://ravenfieldgame.com/ravenscript/api/GameResult.html)
 ---@class GameResult
 GameResult = {
+	---Ends the game with the currently set result.
+	EndGame = function() end,
+	---Ends the game with the currently set result.Allows the game to continue when neverending battles is enabled and playing in instant action mode
+	EndGameAllowContinue = function() end,
 	---@param team Team
 	---@return int
 	GetCampaignArmiesChange = function(team) end,

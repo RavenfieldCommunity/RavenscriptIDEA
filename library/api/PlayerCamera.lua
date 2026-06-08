@@ -46,6 +46,11 @@ PlayerCamera = {
 	---@param magnitude float
 	---@param frequency float
 	---@param duration float
+	---Makes the weapon “rattle”, rotating quickly around its axis.
+	ApplyWeaponRattle = function(magnitude, frequency, duration) end,
+	---@param magnitude float
+	---@param frequency float
+	---@param duration float
 	---Makes the first person weapon wobble up and down.
 	ApplyWeaponSnap = function(magnitude, frequency, duration) end,
 	---Cancel the camera override. Returns to the player’s default first person or third person camera.

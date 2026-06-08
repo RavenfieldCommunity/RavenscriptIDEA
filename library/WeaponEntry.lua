@@ -17,6 +17,8 @@
 ---**Const**
 ---@field prefabWeapon Weapon
 ---**Const**
+---@field rarity RarityTier
+---**Const**
 ---@field slot WeaponSlot
 ---**Const**
 ---@field tags string[]
